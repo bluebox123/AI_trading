@@ -1,0 +1,27 @@
+2025-07-06 12:55:00,503 - 2year_parallel_runner_1 - INFO - Initializing 2-Year Parallel Sentiment Runner - Batch 1
+2025-07-06 12:55:00,803 - advanced_nlp_processor - INFO - spaCy model loaded successfully
+2025-07-06 12:55:00,943 - advanced_nlp_processor - INFO - NLTK components loaded successfully
+2025-07-06 12:55:00,943 - advanced_nlp_processor - INFO - VADER sentiment analyzer loaded
+2025-07-06 12:55:02,187 - advanced_nlp_processor - INFO - FinBERT sentiment analyzer loaded
+2025-07-06 12:55:02,191 - advanced_nlp_processor - INFO - Advanced NLP Processor initialized successfully
+2025-07-06 12:55:02,191 - advanced_confidence_calibration - INFO - Confidence Calibrator initialized successfully
+2025-07-06 12:55:02,191 - intraday_aggregation - INFO - Intraday Aggregator initialized successfully
+2025-07-06 12:55:02,191 - advanced_temporal_weighting - INFO - Advanced Temporal Weighter initialized successfully
+2025-07-06 12:55:02,195 - comprehensive_sentiment_dataset_generator - INFO - Loaded 119 stock symbols from ..\..\nse_stock_symbols_complete.txt
+2025-07-06 12:55:02,195 - comprehensive_sentiment_dataset_generator - INFO - Comprehensive Sentiment Generator initialized successfully
+2025-07-06 12:55:02,195 - advanced_confidence_calibration - INFO - Confidence Calibrator initialized successfully
+2025-07-06 12:55:02,195 - intraday_aggregation - INFO - Intraday Aggregator initialized successfully
+2025-07-06 12:55:02,195 - advanced_temporal_weighting - INFO - Advanced Temporal Weighter initialized successfully
+2025-07-06 12:55:02,195 - integrated_advanced_features - INFO - Integrated Advanced Features initialized successfully
+2025-07-06 12:55:02,195 - 2year_parallel_runner_1 - INFO - Loaded 30 stock symbols for batch 1
+2025-07-06 12:55:02,195 - 2year_parallel_runner_1 - INFO - Date range: 2024-01-01 to 2025-12-31
+2025-07-06 12:55:02,195 - 2year_parallel_runner_1 - INFO - Output directory: 2year_parallel_batch_1_dataset
+2025-07-06 12:55:02,195 - 2year_parallel_runner_1 - INFO - ================================================================================
+2025-07-06 12:55:02,195 - 2year_parallel_runner_1 - INFO - STARTING 2-YEAR PARALLEL BATCH 1 SENTIMENT ANALYSIS
+2025-07-06 12:55:02,195 - 2year_parallel_runner_1 - INFO - ================================================================================
+2025-07-06 12:55:02,195 - 2year_parallel_runner_1 - INFO - Total days: 731
+2025-07-06 12:55:02,195 - 2year_parallel_runner_1 - INFO - Total stocks: 30
+2025-07-06 12:55:02,195 - 2year_parallel_runner_1 - INFO - Total requests: 21,930
+2025-07-06 12:55:02,195 - 2year_parallel_runner_1 - INFO - Estimated time: 6.1 hours
+2025-07-06 12:55:02,201 - 2year_parallel_runner_1 - INFO - ================================================================================
+2025-07-06 12:55:02,201 - 2year_parallel_runner_1 - INFO - Step 1: Running comprehensive backfill for batch 1...

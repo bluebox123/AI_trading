@@ -1,279 +1,237 @@
 'use client'
 
-import { useState, useEffect } from 'react'
-import { useRouter, useSearchParams } from 'next/navigation'
+import { useState } from 'react'
+import { useRouter } from 'next/navigation'
 import Link from 'next/link'
-import { useForm } from 'react-hook-form'
-import { zodResolver } from '@hookform/resolvers/zod'
-import * as z from 'zod'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
-import { Card, CardContent } from '@/components/ui/card'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Alert, AlertDescription } from '@/components/ui/alert'
-import { signIn } from '@/lib/supabase'
-import { 
-  TrendingUp, 
-  Eye, 
-  EyeOff, 
-  Loader2, 
-  Mail, 
-  Lock,
-  ArrowRight,
-  Sparkles,
-  Shield,
-  CheckCircle,
-  AlertCircle
-} from 'lucide-react'
+import { signIn, sendOTP, verifyOTP } from '@/lib/supabase-client'
+import { TrendingUp, Eye, EyeOff, Loader2 } from 'lucide-react'
 import { toast } from 'sonner'
 
-// Validation schema
-const signInSchema = z.object({
-  email: z.string().email('Please enter a valid email address'),
-  password: z.string().min(1, 'Password is required')
-})
+interface OTPModalProps {
+  isOpen: boolean
+  phone: string
+  onVerify: (code: string) => void
+  onCancel: () => void
+  isLoading: boolean
+}
 
-type SignInFormData = z.infer<typeof signInSchema>
+function OTPModal({ isOpen, phone, onVerify, onCancel, isLoading }: OTPModalProps) {
+  const [code, setCode] = useState('')
+
+  if (!isOpen) return null
+
+  return (
+    <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+      <Card className="w-full max-w-md mx-4">
+        <CardHeader>
+          <CardTitle>Verify Your Phone</CardTitle>
+          <CardDescription>
+            Enter the 6-digit code sent to {phone}
+          </CardDescription>
+        </CardHeader>
+        <CardContent className="space-y-4">
+          <div>
+            <Label htmlFor="otp">Verification Code</Label>
+            <Input
+              id="otp"
+              type="text"
+              placeholder="000000"
+              value={code}
+              onChange={(e) => setCode(e.target.value.replace(/\D/g, '').slice(0, 6))}
+              maxLength={6}
+              className="text-center text-2xl tracking-widest"
+            />
+          </div>
+          <div className="flex space-x-2">
+            <Button
+              onClick={() => onVerify(code)}
+              disabled={code.length !== 6 || isLoading}
+              className="flex-1"
+            >
+              {isLoading && <Loader2 className="w-4 h-4 mr-2 animate-spin" />}
+              Verify
+            </Button>
+            <Button
+              variant="outline"
+              onClick={onCancel}
+              disabled={isLoading}
+            >
+              Cancel
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
+    </div>
+  )
+}
 
 export default function SignInPage() {
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
   const [showPassword, setShowPassword] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
-  const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null)
+  const [error, setError] = useState('')
+  const [showOTP, setShowOTP] = useState(false)
+  const [userPhone, setUserPhone] = useState('')
   const router = useRouter()
-  const searchParams = useSearchParams()
 
-  const {
-    register,
-    handleSubmit,
-    formState: { errors, isValid }
-  } = useForm<SignInFormData>({
-    resolver: zodResolver(signInSchema),
-    mode: 'onChange'
-  })
-
-  // Check for success message from sign-up
-  useEffect(() => {
-    const urlMessage = searchParams?.get('message')
-    if (urlMessage) {
-      setMessage({ type: 'success', text: urlMessage })
-    }
-  }, [searchParams])
-
-  const onSubmit = async (data: SignInFormData) => {
+  const handleSignIn = async (e: React.FormEvent) => {
+    e.preventDefault()
     setIsLoading(true)
-    setMessage(null)
-    
+    setError('')
+
     try {
-      const { user } = await signIn(data.email, data.password)
+      const { user } = await signIn(email, password)
       
-      if (user) {
+      // Check if device requires OTP verification
+      // In a real implementation, this would be checked on the backend
+      const requiresOTP = true // Simulate OTP requirement
+      
+      if (requiresOTP && user?.user_metadata?.phone) {
+        setUserPhone(user.user_metadata.phone)
+        // Send OTP
+        await sendOTP(user.user_metadata.phone)
+        setShowOTP(true)
+        toast.success('OTP sent to your phone')
+      } else {
+        // Redirect to intended page or dashboard
+        const redirectTo = new URLSearchParams(window.location.search).get('redirectTo') || '/dashboard'
+        router.push(redirectTo)
         toast.success('Welcome back!')
-        router.push('/dashboard')
       }
-    } catch (error: unknown) {
-      const errorMessage = error instanceof Error ? error.message : 'Sign in failed'
-      setMessage({ type: 'error', text: errorMessage })
-      toast.error(errorMessage)
+    } catch (error: any) {
+      setError(error.message || 'An error occurred during sign in')
+      toast.error('Sign in failed')
     } finally {
       setIsLoading(false)
     }
   }
 
+  const handleOTPVerify = async (code: string) => {
+    setIsLoading(true)
+    
+    try {
+      const { verified } = await verifyOTP(userPhone, code)
+      
+      if (verified) {
+        const redirectTo = new URLSearchParams(window.location.search).get('redirectTo') || '/dashboard'
+        router.push(redirectTo)
+        toast.success('Successfully signed in!')
+      } else {
+        throw new Error('Invalid verification code')
+      }
+    } catch (error: any) {
+      setError(error.message || 'Invalid verification code')
+      toast.error('Verification failed')
+    } finally {
+      setIsLoading(false)
+    }
+  }
+
+  const handleOTPCancel = () => {
+    setShowOTP(false)
+    setUserPhone('')
+  }
+
   return (
-    <div className="min-h-screen bg-black text-white flex items-center justify-center p-4 relative overflow-hidden">
-      {/* Animated Background */}
-      <div className="absolute inset-0">
-        <div className="trading-grid opacity-30"></div>
-        <div className="neural-network"></div>
-      </div>
-
-      {/* Main Content */}
-      <div className="relative z-10 w-full max-w-lg">
-        {/* Header */}
-        <div className="text-center mb-8">
-          <Link href="/" className="inline-flex items-center space-x-3 mb-6 group">
-            <div className="relative">
-              <div className="w-12 h-12 bg-gradient-to-br from-emerald-400 to-cyan-400 rounded-xl flex items-center justify-center">
-                <TrendingUp className="w-7 h-7 text-black font-bold" />
-              </div>
-              <div className="absolute -inset-1 bg-gradient-to-br from-emerald-400 to-cyan-400 rounded-xl blur opacity-30 group-hover:opacity-60 transition-opacity"></div>
+    <div className="min-h-screen bg-background flex items-center justify-center px-4">
+      <Card className="w-full max-w-md">
+        <CardHeader className="text-center">
+          <div className="flex items-center justify-center space-x-2 mb-4">
+            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
+              <TrendingUp className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className="text-2xl font-bold neon-text">TradingSignals</span>
-          </Link>
-          
-          <h1 className="text-4xl font-black mb-4">
-            Welcome Back to <span className="neon-text">TradingSignals</span>
-          </h1>
-          <p className="text-gray-400 text-lg">
-            Access your institutional-grade trading dashboard
-          </p>
-        </div>
-
-        {/* Success/Error Messages */}
-        {message && (
-          <div className="mb-6">
-            <Alert className={`border-2 ${
-              message.type === 'success' 
-                ? 'border-emerald-500/50 bg-emerald-500/10' 
-                : 'border-red-500/50 bg-red-500/10'
-            }`}>
-              <div className="flex items-center">
-                {message.type === 'success' ? (
-                  <CheckCircle className="w-5 h-5 text-emerald-400 mr-2" />
-                ) : (
-                  <AlertCircle className="w-5 h-5 text-red-400 mr-2" />
-                )}
-                <AlertDescription className={
-                  message.type === 'success' ? 'text-emerald-300' : 'text-red-300'
-                }>
-                  {message.text}
-                </AlertDescription>
-              </div>
-            </Alert>
+            <span className="font-bold text-xl">Trading Signals</span>
           </div>
-        )}
-
-        {/* Sign In Card */}
-        <div className="relative">
-          <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/10 to-cyan-500/10 rounded-2xl blur-xl"></div>
-          
-          <Card className="relative bg-black/80 border-emerald-500/30 backdrop-blur-xl">
-            <CardContent className="p-8">
-              <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
-                {/* Email */}
-                <div className="space-y-2">
-                  <Label htmlFor="email" className="text-emerald-400 font-medium flex items-center">
-                    <Mail className="w-4 h-4 mr-2" />
-                    Email Address
-                  </Label>
-                  <Input
-                    id="email"
-                    type="email"
-                    {...register('email')}
-                    placeholder="your.email@company.com"
-                    className="bg-black/50 border-gray-600 focus:border-emerald-500 h-12"
-                    autoComplete="email"
-                  />
-                  {errors.email && (
-                    <p className="text-red-400 text-sm flex items-center">
-                      <AlertCircle className="w-4 h-4 mr-1" />
-                      {errors.email.message}
-                    </p>
-                  )}
-                </div>
-
-                {/* Password */}
-                <div className="space-y-2">
-                  <Label htmlFor="password" className="text-emerald-400 font-medium flex items-center">
-                    <Lock className="w-4 h-4 mr-2" />
-                    Password
-                  </Label>
-                  <div className="relative">
-                    <Input
-                      id="password"
-                      type={showPassword ? 'text' : 'password'}
-                      {...register('password')}
-                      placeholder="Enter your password"
-                      className="bg-black/50 border-gray-600 focus:border-emerald-500 h-12 pr-12"
-                      autoComplete="current-password"
-                    />
-                    <button
-                      type="button"
-                      onClick={() => setShowPassword(!showPassword)}
-                      className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-emerald-400 transition-colors"
-                    >
-                      {showPassword ? <EyeOff className="w-5 h-5" /> : <Eye className="w-5 h-5" />}
-                    </button>
-                  </div>
-                  {errors.password && (
-                    <p className="text-red-400 text-sm flex items-center">
-                      <AlertCircle className="w-4 h-4 mr-1" />
-                      {errors.password.message}
-                    </p>
-                  )}
-                </div>
-
-                {/* Forgot Password Link */}
-                <div className="text-right">
-                  <Link 
-                    href="/auth/forgot-password" 
-                    className="text-sm text-emerald-400 hover:text-emerald-300 transition-colors"
-                  >
-                    Forgot your password?
-                  </Link>
-                </div>
-
-                {/* Submit Button */}
+          <CardTitle className="text-2xl">Welcome Back</CardTitle>
+          <CardDescription>
+            Sign in to access your trading dashboard
+          </CardDescription>
+        </CardHeader>
+        
+        <CardContent>
+          <form onSubmit={handleSignIn} className="space-y-4">
+            {error && (
+              <Alert variant="destructive">
+                <AlertDescription>{error}</AlertDescription>
+              </Alert>
+            )}
+            
+            <div>
+              <Label htmlFor="email">Email</Label>
+              <Input
+                id="email"
+                type="email"
+                placeholder="your@email.com"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+                disabled={isLoading}
+              />
+            </div>
+            
+            <div>
+              <Label htmlFor="password">Password</Label>
+              <div className="relative">
+                <Input
+                  id="password"
+                  type={showPassword ? 'text' : 'password'}
+                  placeholder="Enter your password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  required
+                  disabled={isLoading}
+                />
                 <Button
-                  type="submit"
-                  disabled={!isValid || isLoading}
-                  className="w-full cyber-btn-hero h-14 text-lg font-black disabled:opacity-50 disabled:cursor-not-allowed"
+                  type="button"
+                  variant="ghost"
+                  size="sm"
+                  className="absolute right-0 top-0 h-full px-3 py-2 hover:bg-transparent"
+                  onClick={() => setShowPassword(!showPassword)}
+                  disabled={isLoading}
                 >
-                  {isLoading ? (
-                    <>
-                      <Loader2 className="w-5 h-5 mr-2 animate-spin" />
-                      Signing In...
-                    </>
+                  {showPassword ? (
+                    <EyeOff className="h-4 w-4" />
                   ) : (
-                    <>
-                      <Sparkles className="w-5 h-5 mr-2" />
-                      Access Trading Platform
-                      <ArrowRight className="w-5 h-5 ml-2" />
-                    </>
+                    <Eye className="h-4 w-4" />
                   )}
                 </Button>
-              </form>
-
-              {/* Divider */}
-              <div className="relative my-8">
-                <div className="absolute inset-0 flex items-center">
-                  <div className="w-full border-t border-gray-600"></div>
-                </div>
-                <div className="relative flex justify-center text-sm">
-                  <span className="px-4 bg-black/80 text-gray-400">New to TradingSignals?</span>
-                </div>
               </div>
-
-              {/* Sign Up Link */}
-              <div className="text-center">
-                <Link 
-                  href="/auth/sign-up"
-                  className="cyber-btn-secondary w-full h-12 text-base font-bold inline-flex items-center justify-center rounded-xl"
-                >
-                  Create Your Account
-                  <ArrowRight className="w-4 h-4 ml-2" />
-                </Link>
-              </div>
-
-
-            </CardContent>
-          </Card>
-        </div>
-
-        {/* Security Notice */}
-        <div className="mt-6 text-center">
-          <div className="inline-flex items-center space-x-2 text-sm text-gray-400">
-            <Shield className="w-4 h-4 text-emerald-400" />
-            <span>Protected by enterprise-grade security and 2FA</span>
+            </div>
+            
+            <Button type="submit" className="w-full" disabled={isLoading}>
+              {isLoading && <Loader2 className="w-4 h-4 mr-2 animate-spin" />}
+              Sign In
+            </Button>
+          </form>
+          
+          <div className="mt-6 text-center space-y-2">
+            <p className="text-sm text-muted-foreground">
+              Don't have an account?{' '}
+              <Link href="/auth/sign-up" className="text-primary hover:underline">
+                Sign up
+              </Link>
+            </p>
+            <p className="text-xs text-muted-foreground">
+              By signing in, you agree to our Terms of Service and Privacy Policy
+            </p>
           </div>
-        </div>
+        </CardContent>
+      </Card>
 
-        {/* Features Preview */}
-        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
-          <div className="p-4 bg-black/40 rounded-xl border border-gray-700">
-            <div className="text-emerald-400 font-bold text-lg">95%+</div>
-            <div className="text-gray-400 text-sm">Signal Accuracy</div>
-          </div>
-          <div className="p-4 bg-black/40 rounded-xl border border-gray-700">
-            <div className="text-emerald-400 font-bold text-lg">100+</div>
-            <div className="text-gray-400 text-sm">NSE Stocks</div>
-          </div>
-          <div className="p-4 bg-black/40 rounded-xl border border-gray-700">
-            <div className="text-emerald-400 font-bold text-lg">24/7</div>
-            <div className="text-gray-400 text-sm">AI Analysis</div>
-          </div>
-        </div>
-      </div>
+      {/* OTP Modal */}
+      <OTPModal
+        isOpen={showOTP}
+        phone={userPhone}
+        onVerify={handleOTPVerify}
+        onCancel={handleOTPCancel}
+        isLoading={isLoading}
+      />
     </div>
   )
 } 

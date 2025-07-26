@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-06-28T23:29:53.267986",
+  "portfolio_value": 100000,
+  "portfolio_volatility": 0.2,
+  "annualized_volatility": 3.1749,
+  "sharpe_ratio": 0.25,
+  "current_drawdown": 0.0,
+  "value_at_risk_95": 2078.8,
+  "concentration": {
+    "herfindahl_index": 0.0881,
+    "top_position_weight": 25.0,
+    "concentration_level": "low"
+  },
+  "sector_exposure": {
+    "Technology": 45.0,
+    "Financials": 30.0,
+    "Other": 25.0
+  },
+  "risk_level": "medium",
+  "positions_count": 2,
+  "recommendations": [
+    "Portfolio risk metrics are within acceptable ranges"
+  ]
+}

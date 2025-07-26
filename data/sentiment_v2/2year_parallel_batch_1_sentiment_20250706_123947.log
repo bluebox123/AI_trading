@@ -1,0 +1,47 @@
+2025-07-06 12:39:47,832 - aggressive_2year_parallel_sentiment_runner_1 - INFO - Initializing Aggressive 2-Year Optimized Parallel Sentiment Runner - Batch 1
+2025-07-06 12:39:48,400 - advanced_nlp_processor - INFO - spaCy model loaded successfully
+2025-07-06 12:39:48,567 - advanced_nlp_processor - INFO - NLTK components loaded successfully
+2025-07-06 12:39:48,582 - advanced_nlp_processor - INFO - VADER sentiment analyzer loaded
+2025-07-06 12:39:50,490 - advanced_nlp_processor - INFO - FinBERT sentiment analyzer loaded
+2025-07-06 12:39:50,490 - advanced_nlp_processor - INFO - Advanced NLP Processor initialized successfully
+2025-07-06 12:39:50,490 - advanced_confidence_calibration - INFO - Confidence Calibrator initialized successfully
+2025-07-06 12:39:50,496 - intraday_aggregation - INFO - Intraday Aggregator initialized successfully
+2025-07-06 12:39:50,497 - advanced_temporal_weighting - INFO - Advanced Temporal Weighter initialized successfully
+2025-07-06 12:39:50,498 - comprehensive_sentiment_dataset_generator - INFO - Loaded 119 stock symbols from ..\..\nse_stock_symbols_complete.txt
+2025-07-06 12:39:50,498 - comprehensive_sentiment_dataset_generator - INFO - Comprehensive Sentiment Generator initialized successfully
+2025-07-06 12:39:50,501 - advanced_confidence_calibration - INFO - Confidence Calibrator initialized successfully
+2025-07-06 12:39:50,501 - intraday_aggregation - INFO - Intraday Aggregator initialized successfully
+2025-07-06 12:39:50,501 - advanced_temporal_weighting - INFO - Advanced Temporal Weighter initialized successfully
+2025-07-06 12:39:50,501 - integrated_advanced_features - INFO - Integrated Advanced Features initialized successfully
+2025-07-06 12:39:50,501 - aggressive_2year_parallel_sentiment_runner_1 - INFO - Loaded 28 stock symbols for batch 1
+2025-07-06 12:39:50,501 - aggressive_2year_parallel_sentiment_runner_1 - INFO - Date range: 2024-01-01 to 2025-12-31 (2 years)
+2025-07-06 12:39:50,501 - aggressive_2year_parallel_sentiment_runner_1 - INFO - Output directory: 2year_parallel_sentiment_batch_1
+2025-07-06 12:39:50,501 - aggressive_2year_parallel_sentiment_runner_1 - INFO - AGGRESSIVE Rate limiting: base_delay=0.8s, max_delay=5.0s
+2025-07-06 12:39:50,501 - aggressive_2year_parallel_sentiment_runner_1 - INFO - Batch processing: 5 stocks concurrently
+2025-07-06 12:39:50,501 - aggressive_2year_parallel_sentiment_runner_1 - INFO - Concurrent requests: 3
+2025-07-06 12:39:50,501 - aggressive_2year_parallel_sentiment_runner_1 - INFO - ================================================================================
+2025-07-06 12:39:50,506 - aggressive_2year_parallel_sentiment_runner_1 - INFO - STARTING AGGRESSIVE 2-YEAR PARALLEL BATCH 1 SENTIMENT ANALYSIS
+2025-07-06 12:39:50,506 - aggressive_2year_parallel_sentiment_runner_1 - INFO - ================================================================================
+2025-07-06 12:39:50,507 - aggressive_2year_parallel_sentiment_runner_1 - INFO - Total days: 731
+2025-07-06 12:39:50,507 - aggressive_2year_parallel_sentiment_runner_1 - INFO - Total stocks: 28
+2025-07-06 12:39:50,507 - aggressive_2year_parallel_sentiment_runner_1 - INFO - Total requests: 20,468
+2025-07-06 12:39:50,507 - aggressive_2year_parallel_sentiment_runner_1 - INFO - Estimated time: 3.2 hours
+2025-07-06 12:39:50,507 - aggressive_2year_parallel_sentiment_runner_1 - INFO - AGGRESSIVE Rate limiting: 0.8s base delay, 5.0s max delay
+2025-07-06 12:39:50,507 - aggressive_2year_parallel_sentiment_runner_1 - INFO - Batch processing: 5 stocks, 3 concurrent requests
+2025-07-06 12:39:50,507 - aggressive_2year_parallel_sentiment_runner_1 - INFO - ================================================================================
+2025-07-06 12:39:50,507 - aggressive_2year_parallel_sentiment_runner_1 - INFO - Step 1: Running comprehensive backfill for batch 1 (2 years)...
+2025-07-06 12:40:27,869 - comprehensive_sentiment_dataset_generator - WARNING - No data for RELIANCE.NSE on 2024-01-01
+2025-07-06 12:40:28,879 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for RELIANCE.NSE: 0
+2025-07-06 12:40:28,879 - backfill - WARNING - No data for RELIANCE.NSE on 2024-01-01
+2025-07-06 12:41:08,680 - comprehensive_sentiment_dataset_generator - WARNING - No data for RELIANCE.NSE on 2024-01-02
+2025-07-06 12:41:09,680 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for RELIANCE.NSE: 0
+2025-07-06 12:41:09,684 - backfill - WARNING - No data for RELIANCE.NSE on 2024-01-02
+2025-07-06 12:41:39,362 - comprehensive_sentiment_dataset_generator - WARNING - No data for RELIANCE.NSE on 2024-01-03
+2025-07-06 12:41:40,366 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for RELIANCE.NSE: 0
+2025-07-06 12:41:40,367 - backfill - WARNING - No data for RELIANCE.NSE on 2024-01-03
+2025-07-06 12:42:14,618 - comprehensive_sentiment_dataset_generator - WARNING - No data for RELIANCE.NSE on 2024-01-04
+2025-07-06 12:42:15,624 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for RELIANCE.NSE: 0
+2025-07-06 12:42:15,625 - backfill - WARNING - No data for RELIANCE.NSE on 2024-01-04
+2025-07-06 12:42:52,325 - comprehensive_sentiment_dataset_generator - WARNING - No data for RELIANCE.NSE on 2024-01-05
+2025-07-06 12:42:53,335 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for RELIANCE.NSE: 0
+2025-07-06 12:42:53,337 - backfill - WARNING - No data for RELIANCE.NSE on 2024-01-05

@@ -1,0 +1,49 @@
+2025-07-07 12:33:12,114 - complete_sentiment_runner - INFO - Initializing Complete Sentiment Runner
+2025-07-07 12:33:12,402 - advanced_nlp_processor - INFO - spaCy model loaded successfully
+2025-07-07 12:33:23,060 - advanced_nlp_processor - INFO - NLTK components loaded successfully
+2025-07-07 12:33:23,069 - advanced_nlp_processor - INFO - VADER sentiment analyzer loaded
+2025-07-07 12:33:28,509 - advanced_nlp_processor - INFO - FinBERT sentiment analyzer loaded
+2025-07-07 12:33:28,509 - advanced_nlp_processor - INFO - Advanced NLP Processor initialized successfully
+2025-07-07 12:33:28,516 - advanced_confidence_calibration - INFO - Confidence Calibrator initialized successfully
+2025-07-07 12:33:28,516 - intraday_aggregation - INFO - Intraday Aggregator initialized successfully
+2025-07-07 12:33:28,516 - advanced_temporal_weighting - INFO - Advanced Temporal Weighter initialized successfully
+2025-07-07 12:33:28,516 - comprehensive_sentiment_dataset_generator - INFO - Loaded 119 stock symbols
+2025-07-07 12:33:28,519 - comprehensive_sentiment_dataset_generator - INFO - Comprehensive Sentiment Generator initialized successfully
+2025-07-07 12:33:28,520 - advanced_confidence_calibration - INFO - Confidence Calibrator initialized successfully
+2025-07-07 12:33:28,520 - intraday_aggregation - INFO - Intraday Aggregator initialized successfully
+2025-07-07 12:33:28,520 - advanced_temporal_weighting - INFO - Advanced Temporal Weighter initialized successfully
+2025-07-07 12:33:28,520 - integrated_advanced_features - INFO - Integrated Advanced Features initialized successfully
+2025-07-07 12:33:28,520 - complete_sentiment_runner - INFO - Loaded 119 stock symbols from file
+2025-07-07 12:33:28,520 - complete_sentiment_runner - INFO - Loaded 119 stock symbols
+2025-07-07 12:33:28,520 - complete_sentiment_runner - INFO - Date range: 2020-05-01 to 2025-05-31
+2025-07-07 12:33:28,520 - complete_sentiment_runner - INFO - Output directory: complete_5year_sentiment_dataset
+2025-07-07 12:33:28,520 - complete_sentiment_runner - INFO - ================================================================================
+2025-07-07 12:33:28,524 - complete_sentiment_runner - INFO - STARTING COMPLETE 5-YEAR SENTIMENT ANALYSIS
+2025-07-07 12:33:28,524 - complete_sentiment_runner - INFO - ================================================================================
+2025-07-07 12:33:28,524 - complete_sentiment_runner - INFO - Total days: 1857
+2025-07-07 12:33:28,524 - complete_sentiment_runner - INFO - Total stocks: 119
+2025-07-07 12:33:28,524 - complete_sentiment_runner - INFO - Total requests: 220,983
+2025-07-07 12:33:28,524 - complete_sentiment_runner - INFO - Estimated time: 92.1 hours
+2025-07-07 12:33:28,524 - complete_sentiment_runner - INFO - ================================================================================
+2025-07-07 12:33:28,524 - complete_sentiment_runner - INFO - Step 1: Running comprehensive backfill...
+2025-07-07 12:33:30,085 - comprehensive_sentiment_dataset_generator - INFO - Found 4 articles for ADANIENT.NSE on 2020-05-01 with query: Adani Enterprises stock news 2020-05-01
+2025-07-07 12:33:31,088 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for ADANIENT.NSE: 4
+2025-07-07 12:33:31,089 - backfill - INFO - Fetched 4 for ADANIENT.NSE on 2020-05-01
+2025-07-07 12:33:31,863 - comprehensive_sentiment_dataset_generator - INFO - Found 1 articles for ADANIENT.NSE on 2020-05-02 with query: Adani Enterprises stock news 2020-05-02
+2025-07-07 12:33:32,870 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for ADANIENT.NSE: 1
+2025-07-07 12:33:32,870 - backfill - INFO - Fetched 1 for ADANIENT.NSE on 2020-05-02
+2025-07-07 12:33:33,286 - comprehensive_sentiment_dataset_generator - INFO - Found 1 articles for ADANIENT.NSE on 2020-05-03 with query: Adani Enterprises stock news 2020-05-03
+2025-07-07 12:33:34,292 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for ADANIENT.NSE: 1
+2025-07-07 12:33:34,292 - backfill - INFO - Fetched 1 for ADANIENT.NSE on 2020-05-03
+2025-07-07 12:33:35,170 - comprehensive_sentiment_dataset_generator - INFO - Found 3 articles for ADANIENT.NSE on 2020-05-04 with query: Adani Enterprises stock news 2020-05-04
+2025-07-07 12:33:36,180 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for ADANIENT.NSE: 3
+2025-07-07 12:33:36,181 - backfill - INFO - Fetched 3 for ADANIENT.NSE on 2020-05-04
+2025-07-07 12:33:36,882 - comprehensive_sentiment_dataset_generator - INFO - Found 3 articles for ADANIENT.NSE on 2020-05-05 with query: Adani Enterprises stock news 2020-05-05
+2025-07-07 12:33:37,886 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for ADANIENT.NSE: 3
+2025-07-07 12:33:37,890 - backfill - INFO - Fetched 3 for ADANIENT.NSE on 2020-05-05
+2025-07-07 12:33:38,350 - comprehensive_sentiment_dataset_generator - INFO - Found 2 articles for ADANIENT.NSE on 2020-05-06 with query: Adani Enterprises stock news 2020-05-06
+2025-07-07 12:33:39,360 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for ADANIENT.NSE: 2
+2025-07-07 12:33:39,360 - backfill - INFO - Fetched 2 for ADANIENT.NSE on 2020-05-06
+2025-07-07 12:33:39,822 - comprehensive_sentiment_dataset_generator - INFO - Found 3 articles for ADANIENT.NSE on 2020-05-07 with query: Adani Enterprises stock news 2020-05-07
+2025-07-07 12:33:40,830 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for ADANIENT.NSE: 3
+2025-07-07 12:33:40,835 - backfill - INFO - Fetched 3 for ADANIENT.NSE on 2020-05-07

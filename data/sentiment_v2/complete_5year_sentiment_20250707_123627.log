@@ -1,0 +1,19 @@
+2025-07-07 12:36:27,059 - complete_sentiment_runner - INFO - Initializing Complete Sentiment Runner
+2025-07-07 12:36:27,349 - advanced_nlp_processor - INFO - spaCy model loaded successfully
+2025-07-07 12:36:27,436 - advanced_nlp_processor - INFO - NLTK components loaded successfully
+2025-07-07 12:36:27,441 - advanced_nlp_processor - INFO - VADER sentiment analyzer loaded
+2025-07-07 12:36:28,448 - advanced_nlp_processor - INFO - FinBERT sentiment analyzer loaded
+2025-07-07 12:36:28,448 - advanced_nlp_processor - INFO - Advanced NLP Processor initialized successfully
+2025-07-07 12:36:28,448 - advanced_confidence_calibration - INFO - Confidence Calibrator initialized successfully
+2025-07-07 12:36:28,448 - intraday_aggregation - INFO - Intraday Aggregator initialized successfully
+2025-07-07 12:36:28,448 - advanced_temporal_weighting - INFO - Advanced Temporal Weighter initialized successfully
+2025-07-07 12:36:28,448 - comprehensive_sentiment_dataset_generator - INFO - Loaded 119 stock symbols
+2025-07-07 12:36:28,456 - comprehensive_sentiment_dataset_generator - INFO - Comprehensive Sentiment Generator initialized successfully
+2025-07-07 12:36:28,456 - advanced_confidence_calibration - INFO - Confidence Calibrator initialized successfully
+2025-07-07 12:36:28,456 - intraday_aggregation - INFO - Intraday Aggregator initialized successfully
+2025-07-07 12:36:28,456 - advanced_temporal_weighting - INFO - Advanced Temporal Weighter initialized successfully
+2025-07-07 12:36:28,456 - integrated_advanced_features - INFO - Integrated Advanced Features initialized successfully
+2025-07-07 12:36:28,456 - complete_sentiment_runner - INFO - Loaded 119 stock symbols from file
+2025-07-07 12:36:28,456 - complete_sentiment_runner - INFO - Loaded 119 stock symbols
+2025-07-07 12:36:28,456 - complete_sentiment_runner - INFO - Date range: 2020-05-01 to 2025-05-31
+2025-07-07 12:36:28,456 - complete_sentiment_runner - INFO - Output directory: complete_5year_sentiment_dataset

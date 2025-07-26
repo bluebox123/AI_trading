@@ -1,0 +1,37 @@
+2025-07-06 12:58:07,199 - complete_sentiment_runner - INFO - Initializing Complete Sentiment Runner
+2025-07-06 12:58:07,488 - advanced_nlp_processor - INFO - spaCy model loaded successfully
+2025-07-06 12:58:07,608 - advanced_nlp_processor - INFO - NLTK components loaded successfully
+2025-07-06 12:58:07,618 - advanced_nlp_processor - INFO - VADER sentiment analyzer loaded
+2025-07-06 12:58:08,698 - advanced_nlp_processor - INFO - FinBERT sentiment analyzer loaded
+2025-07-06 12:58:08,698 - advanced_nlp_processor - INFO - Advanced NLP Processor initialized successfully
+2025-07-06 12:58:08,700 - advanced_confidence_calibration - INFO - Confidence Calibrator initialized successfully
+2025-07-06 12:58:08,700 - intraday_aggregation - INFO - Intraday Aggregator initialized successfully
+2025-07-06 12:58:08,702 - advanced_temporal_weighting - INFO - Advanced Temporal Weighter initialized successfully
+2025-07-06 12:58:08,702 - comprehensive_sentiment_dataset_generator - INFO - Loaded 119 stock symbols from ..\..\nse_stock_symbols_complete.txt
+2025-07-06 12:58:08,702 - comprehensive_sentiment_dataset_generator - INFO - Comprehensive Sentiment Generator initialized successfully
+2025-07-06 12:58:08,702 - advanced_confidence_calibration - INFO - Confidence Calibrator initialized successfully
+2025-07-06 12:58:08,702 - intraday_aggregation - INFO - Intraday Aggregator initialized successfully
+2025-07-06 12:58:08,702 - advanced_temporal_weighting - INFO - Advanced Temporal Weighter initialized successfully
+2025-07-06 12:58:08,702 - integrated_advanced_features - INFO - Integrated Advanced Features initialized successfully
+2025-07-06 12:58:08,702 - complete_sentiment_runner - INFO - Loaded 119 stock symbols from file
+2025-07-06 12:58:08,702 - complete_sentiment_runner - INFO - Loaded 119 stock symbols
+2025-07-06 12:58:08,702 - complete_sentiment_runner - INFO - Date range: 2020-05-01 to 2025-05-31
+2025-07-06 12:58:08,702 - complete_sentiment_runner - INFO - Output directory: complete_5year_sentiment_dataset
+2025-07-06 12:58:08,702 - complete_sentiment_runner - INFO - ================================================================================
+2025-07-06 12:58:08,702 - complete_sentiment_runner - INFO - STARTING COMPLETE 5-YEAR SENTIMENT ANALYSIS
+2025-07-06 12:58:08,702 - complete_sentiment_runner - INFO - ================================================================================
+2025-07-06 12:58:08,706 - complete_sentiment_runner - INFO - Total days: 1857
+2025-07-06 12:58:08,706 - complete_sentiment_runner - INFO - Total stocks: 119
+2025-07-06 12:58:08,706 - complete_sentiment_runner - INFO - Total requests: 220,983
+2025-07-06 12:58:08,706 - complete_sentiment_runner - INFO - Estimated time: 92.1 hours
+2025-07-06 12:58:08,706 - complete_sentiment_runner - INFO - ================================================================================
+2025-07-06 12:58:08,706 - complete_sentiment_runner - INFO - Step 1: Running comprehensive backfill...
+2025-07-06 12:58:48,285 - comprehensive_sentiment_dataset_generator - WARNING - No data for ADANIENT.NSE on 2020-05-01
+2025-07-06 12:58:49,293 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for ADANIENT.NSE: 0
+2025-07-06 12:58:49,293 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-01
+2025-07-06 12:59:24,741 - comprehensive_sentiment_dataset_generator - WARNING - No data for ADANIENT.NSE on 2020-05-02
+2025-07-06 12:59:25,754 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for ADANIENT.NSE: 0
+2025-07-06 12:59:25,755 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-02
+2025-07-06 13:00:01,113 - comprehensive_sentiment_dataset_generator - WARNING - No data for ADANIENT.NSE on 2020-05-03
+2025-07-06 13:00:02,126 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for ADANIENT.NSE: 0
+2025-07-06 13:00:02,127 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-03

@@ -1,0 +1,562 @@
+{
+  "start_time": "2025-07-02T18:32:45.472744",
+  "date_range": "2020-05 to 2025-05",
+  "total_symbols": 117,
+  "monthly_results": [
+    {
+      "period": "2020-05",
+      "start_date": "2020-05-01",
+      "end_date": "2020-05-31",
+      "symbols_processed": 117,
+      "total_price_records": 2128,
+      "total_news_articles": 13,
+      "errors": []
+    },
+    {
+      "period": "2020-06",
+      "start_date": "2020-06-01",
+      "end_date": "2020-06-30",
+      "symbols_processed": 117,
+      "total_price_records": 2464,
+      "total_news_articles": 21,
+      "errors": []
+    },
+    {
+      "period": "2020-07",
+      "start_date": "2020-07-01",
+      "end_date": "2020-07-31",
+      "symbols_processed": 117,
+      "total_price_records": 2575,
+      "total_news_articles": 33,
+      "errors": []
+    },
+    {
+      "period": "2020-08",
+      "start_date": "2020-08-01",
+      "end_date": "2020-08-31",
+      "symbols_processed": 117,
+      "total_price_records": 2359,
+      "total_news_articles": 23,
+      "errors": []
+    },
+    {
+      "period": "2020-09",
+      "start_date": "2020-09-01",
+      "end_date": "2020-09-30",
+      "symbols_processed": 117,
+      "total_price_records": 2486,
+      "total_news_articles": 48,
+      "errors": []
+    },
+    {
+      "period": "2020-10",
+      "start_date": "2020-10-01",
+      "end_date": "2020-10-31",
+      "symbols_processed": 117,
+      "total_price_records": 2373,
+      "total_news_articles": 38,
+      "errors": []
+    },
+    {
+      "period": "2020-11",
+      "start_date": "2020-11-01",
+      "end_date": "2020-11-30",
+      "symbols_processed": 117,
+      "total_price_records": 2259,
+      "total_news_articles": 32,
+      "errors": []
+    },
+    {
+      "period": "2020-12",
+      "start_date": "2020-12-01",
+      "end_date": "2020-12-31",
+      "symbols_processed": 117,
+      "total_price_records": 2486,
+      "total_news_articles": 17,
+      "errors": []
+    },
+    {
+      "period": "2021-01",
+      "start_date": "2021-01-01",
+      "end_date": "2021-01-31",
+      "symbols_processed": 117,
+      "total_price_records": 2260,
+      "total_news_articles": 28,
+      "errors": []
+    },
+    {
+      "period": "2021-02",
+      "start_date": "2021-02-01",
+      "end_date": "2021-02-28",
+      "symbols_processed": 117,
+      "total_price_records": 2260,
+      "total_news_articles": 45,
+      "errors": []
+    },
+    {
+      "period": "2021-03",
+      "start_date": "2021-03-01",
+      "end_date": "2021-03-31",
+      "symbols_processed": 117,
+      "total_price_records": 2373,
+      "total_news_articles": 25,
+      "errors": []
+    },
+    {
+      "period": "2021-04",
+      "start_date": "2021-04-01",
+      "end_date": "2021-04-30",
+      "symbols_processed": 117,
+      "total_price_records": 2147,
+      "total_news_articles": 42,
+      "errors": []
+    },
+    {
+      "period": "2021-05",
+      "start_date": "2021-05-01",
+      "end_date": "2021-05-31",
+      "symbols_processed": 117,
+      "total_price_records": 2260,
+      "total_news_articles": 35,
+      "errors": []
+    },
+    {
+      "period": "2021-06",
+      "start_date": "2021-06-01",
+      "end_date": "2021-06-30",
+      "symbols_processed": 117,
+      "total_price_records": 2486,
+      "total_news_articles": 72,
+      "errors": []
+    },
+    {
+      "period": "2021-07",
+      "start_date": "2021-07-01",
+      "end_date": "2021-07-31",
+      "symbols_processed": 117,
+      "total_price_records": 2379,
+      "total_news_articles": 31,
+      "errors": []
+    },
+    {
+      "period": "2021-08",
+      "start_date": "2021-08-01",
+      "end_date": "2021-08-31",
+      "symbols_processed": 117,
+      "total_price_records": 2394,
+      "total_news_articles": 35,
+      "errors": []
+    },
+    {
+      "period": "2021-09",
+      "start_date": "2021-09-01",
+      "end_date": "2021-09-30",
+      "symbols_processed": 117,
+      "total_price_records": 2394,
+      "total_news_articles": 38,
+      "errors": []
+    },
+    {
+      "period": "2021-10",
+      "start_date": "2021-10-01",
+      "end_date": "2021-10-31",
+      "symbols_processed": 117,
+      "total_price_records": 2280,
+      "total_news_articles": 65,
+      "errors": []
+    },
+    {
+      "period": "2021-11",
+      "start_date": "2021-11-01",
+      "end_date": "2021-11-30",
+      "symbols_processed": 117,
+      "total_price_records": 2313,
+      "total_news_articles": 63,
+      "errors": []
+    },
+    {
+      "period": "2021-12",
+      "start_date": "2021-12-01",
+      "end_date": "2021-12-31",
+      "symbols_processed": 117,
+      "total_price_records": 2688,
+      "total_news_articles": 55,
+      "errors": []
+    },
+    {
+      "period": "2022-01",
+      "start_date": "2022-01-01",
+      "end_date": "2022-01-31",
+      "symbols_processed": 117,
+      "total_price_records": 2340,
+      "total_news_articles": 64,
+      "errors": []
+    },
+    {
+      "period": "2022-02",
+      "start_date": "2022-02-01",
+      "end_date": "2022-02-28",
+      "symbols_processed": 117,
+      "total_price_records": 2340,
+      "total_news_articles": 51,
+      "errors": []
+    },
+    {
+      "period": "2022-03",
+      "start_date": "2022-03-01",
+      "end_date": "2022-03-31",
+      "symbols_processed": 117,
+      "total_price_records": 2457,
+      "total_news_articles": 58,
+      "errors": []
+    },
+    {
+      "period": "2022-04",
+      "start_date": "2022-04-01",
+      "end_date": "2022-04-30",
+      "symbols_processed": 117,
+      "total_price_records": 2223,
+      "total_news_articles": 71,
+      "errors": []
+    },
+    {
+      "period": "2022-05",
+      "start_date": "2022-05-01",
+      "end_date": "2022-05-31",
+      "symbols_processed": 117,
+      "total_price_records": 2439,
+      "total_news_articles": 38,
+      "errors": []
+    },
+    {
+      "period": "2022-06",
+      "start_date": "2022-06-01",
+      "end_date": "2022-06-30",
+      "symbols_processed": 117,
+      "total_price_records": 2552,
+      "total_news_articles": 33,
+      "errors": []
+    },
+    {
+      "period": "2022-07",
+      "start_date": "2022-07-01",
+      "end_date": "2022-07-31",
+      "symbols_processed": 117,
+      "total_price_records": 2436,
+      "total_news_articles": 53,
+      "errors": []
+    },
+    {
+      "period": "2022-08",
+      "start_date": "2022-08-01",
+      "end_date": "2022-08-31",
+      "symbols_processed": 117,
+      "total_price_records": 2320,
+      "total_news_articles": 48,
+      "errors": []
+    },
+    {
+      "period": "2022-09",
+      "start_date": "2022-09-01",
+      "end_date": "2022-09-30",
+      "symbols_processed": 117,
+      "total_price_records": 2552,
+      "total_news_articles": 41,
+      "errors": []
+    },
+    {
+      "period": "2022-10",
+      "start_date": "2022-10-01",
+      "end_date": "2022-10-31",
+      "symbols_processed": 117,
+      "total_price_records": 2204,
+      "total_news_articles": 55,
+      "errors": []
+    },
+    {
+      "period": "2022-11",
+      "start_date": "2022-11-01",
+      "end_date": "2022-11-30",
+      "symbols_processed": 117,
+      "total_price_records": 2430,
+      "total_news_articles": 50,
+      "errors": []
+    },
+    {
+      "period": "2022-12",
+      "start_date": "2022-12-01",
+      "end_date": "2022-12-31",
+      "symbols_processed": 117,
+      "total_price_records": 2530,
+      "total_news_articles": 30,
+      "errors": []
+    },
+    {
+      "period": "2023-01",
+      "start_date": "2023-01-01",
+      "end_date": "2023-01-31",
+      "symbols_processed": 117,
+      "total_price_records": 2415,
+      "total_news_articles": 59,
+      "errors": []
+    },
+    {
+      "period": "2023-02",
+      "start_date": "2023-02-01",
+      "end_date": "2023-02-28",
+      "symbols_processed": 117,
+      "total_price_records": 2300,
+      "total_news_articles": 53,
+      "errors": []
+    },
+    {
+      "period": "2023-03",
+      "start_date": "2023-03-01",
+      "end_date": "2023-03-31",
+      "symbols_processed": 117,
+      "total_price_records": 2413,
+      "total_news_articles": 50,
+      "errors": []
+    },
+    {
+      "period": "2023-04",
+      "start_date": "2023-04-01",
+      "end_date": "2023-04-30",
+      "symbols_processed": 117,
+      "total_price_records": 1937,
+      "total_news_articles": 37,
+      "errors": []
+    },
+    {
+      "period": "2023-05",
+      "start_date": "2023-05-01",
+      "end_date": "2023-05-31",
+      "symbols_processed": 117,
+      "total_price_records": 2508,
+      "total_news_articles": 43,
+      "errors": []
+    },
+    {
+      "period": "2023-06",
+      "start_date": "2023-06-01",
+      "end_date": "2023-06-30",
+      "symbols_processed": 117,
+      "total_price_records": 2393,
+      "total_news_articles": 42,
+      "errors": []
+    },
+    {
+      "period": "2023-07",
+      "start_date": "2023-07-01",
+      "end_date": "2023-07-31",
+      "symbols_processed": 117,
+      "total_price_records": 2381,
+      "total_news_articles": 63,
+      "errors": []
+    },
+    {
+      "period": "2023-08",
+      "start_date": "2023-08-01",
+      "end_date": "2023-08-31",
+      "symbols_processed": 117,
+      "total_price_records": 2486,
+      "total_news_articles": 36,
+      "errors": []
+    },
+    {
+      "period": "2023-09",
+      "start_date": "2023-09-01",
+      "end_date": "2023-09-30",
+      "symbols_processed": 117,
+      "total_price_records": 2260,
+      "total_news_articles": 74,
+      "errors": []
+    },
+    {
+      "period": "2023-10",
+      "start_date": "2023-10-01",
+      "end_date": "2023-10-31",
+      "symbols_processed": 117,
+      "total_price_records": 2260,
+      "total_news_articles": 65,
+      "errors": []
+    },
+    {
+      "period": "2023-11",
+      "start_date": "2023-11-01",
+      "end_date": "2023-11-30",
+      "symbols_processed": 117,
+      "total_price_records": 2300,
+      "total_news_articles": 52,
+      "errors": []
+    },
+    {
+      "period": "2023-12",
+      "start_date": "2023-12-01",
+      "end_date": "2023-12-31",
+      "symbols_processed": 117,
+      "total_price_records": 2260,
+      "total_news_articles": 30,
+      "errors": []
+    },
+    {
+      "period": "2024-01",
+      "start_date": "2024-01-01",
+      "end_date": "2024-01-31",
+      "symbols_processed": 117,
+      "total_price_records": 2413,
+      "total_news_articles": 70,
+      "errors": []
+    },
+    {
+      "period": "2024-02",
+      "start_date": "2024-02-01",
+      "end_date": "2024-02-29",
+      "symbols_processed": 117,
+      "total_price_records": 2373,
+      "total_news_articles": 54,
+      "errors": []
+    },
+    {
+      "period": "2024-03",
+      "start_date": "2024-03-01",
+      "end_date": "2024-03-31",
+      "symbols_processed": 117,
+      "total_price_records": 2074,
+      "total_news_articles": 34,
+      "errors": []
+    },
+    {
+      "period": "2024-04",
+      "start_date": "2024-04-01",
+      "end_date": "2024-04-30",
+      "symbols_processed": 117,
+      "total_price_records": 2260,
+      "total_news_articles": 46,
+      "errors": []
+    },
+    {
+      "period": "2024-05",
+      "start_date": "2024-05-01",
+      "end_date": "2024-05-31",
+      "symbols_processed": 117,
+      "total_price_records": 2414,
+      "total_news_articles": 77,
+      "errors": []
+    },
+    {
+      "period": "2024-06",
+      "start_date": "2024-06-01",
+      "end_date": "2024-06-30",
+      "symbols_processed": 117,
+      "total_price_records": 2147,
+      "total_news_articles": 58,
+      "errors": []
+    },
+    {
+      "period": "2024-07",
+      "start_date": "2024-07-01",
+      "end_date": "2024-07-31",
+      "symbols_processed": 117,
+      "total_price_records": 2486,
+      "total_news_articles": 92,
+      "errors": []
+    },
+    {
+      "period": "2024-08",
+      "start_date": "2024-08-01",
+      "end_date": "2024-08-31",
+      "symbols_processed": 117,
+      "total_price_records": 2373,
+      "total_news_articles": 82,
+      "errors": []
+    },
+    {
+      "period": "2024-09",
+      "start_date": "2024-09-01",
+      "end_date": "2024-09-30",
+      "symbols_processed": 117,
+      "total_price_records": 2373,
+      "total_news_articles": 81,
+      "errors": []
+    },
+    {
+      "period": "2024-10",
+      "start_date": "2024-10-01",
+      "end_date": "2024-10-31",
+      "symbols_processed": 117,
+      "total_price_records": 2486,
+      "total_news_articles": 100,
+      "errors": []
+    },
+    {
+      "period": "2024-11",
+      "start_date": "2024-11-01",
+      "end_date": "2024-11-30",
+      "symbols_processed": 117,
+      "total_price_records": 2147,
+      "total_news_articles": 30,
+      "errors": []
+    },
+    {
+      "period": "2024-12",
+      "start_date": "2024-12-01",
+      "end_date": "2024-12-31",
+      "symbols_processed": 117,
+      "total_price_records": 2373,
+      "total_news_articles": 18,
+      "errors": []
+    },
+    {
+      "period": "2025-01",
+      "start_date": "2025-01-01",
+      "end_date": "2025-01-31",
+      "symbols_processed": 117,
+      "total_price_records": 2599,
+      "total_news_articles": 86,
+      "errors": []
+    },
+    {
+      "period": "2025-02",
+      "start_date": "2025-02-01",
+      "end_date": "2025-02-28",
+      "symbols_processed": 117,
+      "total_price_records": 2260,
+      "total_news_articles": 41,
+      "errors": []
+    },
+    {
+      "period": "2025-03",
+      "start_date": "2025-03-01",
+      "end_date": "2025-03-31",
+      "symbols_processed": 117,
+      "total_price_records": 2147,
+      "total_news_articles": 34,
+      "errors": []
+    },
+    {
+      "period": "2025-04",
+      "start_date": "2025-04-01",
+      "end_date": "2025-04-30",
+      "symbols_processed": 117,
+      "total_price_records": 2134,
+      "total_news_articles": 43,
+      "errors": []
+    },
+    {
+      "period": "2025-05",
+      "start_date": "2025-05-01",
+      "end_date": "2025-05-31",
+      "symbols_processed": 117,
+      "total_price_records": 2352,
+      "total_news_articles": 18,
+      "errors": []
+    }
+  ],
+  "total_api_calls": 14275,
+  "total_price_records": 143511,
+  "total_news_articles": 2919,
+  "errors": [],
+  "end_time": "2025-07-02T20:31:32.612657",
+  "duration": "1:58:47.139913"
+}

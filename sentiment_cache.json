@@ -1,0 +1,1664 @@
+{
+  "sentiment_data": {
+    "ADANIENT.NSE": {
+      "sentiment_score": 0.2962,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 25,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Adani Enterprises shares in focus after Adani Defence acquires 85% stake in MRO firm Air Works - The Economic Times",
+        "Adani Enterprises Share Price Target: 2025 To 2040 - Exla Resources",
+        "Adani Enterprises, Adani Green Energy, And Adani Ports & SEZ Share Price Soar Up To 5% \u2014 Key Reasons Inside - Samco"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "ADANIPORTS.NSE": {
+      "sentiment_score": -0.1971,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 25,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Adani Ports Q4 Preview: Port volumes, revenue seen higher but slow progress at Gangavaram an overhang - Moneycontrol",
+        "Adani Ports shares drop 2%, extend losses for 6th session amid Israel-Iran conflict - Moneycontrol",
+        "Adani Ports bets big on doubling revenue by FY29. But execution is everything. | Stock Market News - Mint"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "APOLLOHOSP.NSE": {
+      "sentiment_score": -0.2429,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 24,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Apollo Hospitals Enterprise (NSE:APOLLOHOSP) Has Announced A Dividend Of \u20b910.00 - simplywall.st",
+        "Apollo Hospitals share price drops 7% despite strong Q3; here\u2019s why - Fortune India",
+        "Apollo Hospitals shares plunge 7% amid heavy trading volumes - Moneycontrol"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "ASIANPAINT.NSE": {
+      "sentiment_score": 0.3832,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 23,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Asian Paints shares sink as CCI orders probe into anti-competitive behavior, CLSA maintains 'underperform' - Moneycontrol",
+        "Asian Paints Block Deal: Stock in focus as Reliance Industries sells 85 lakh shares of Asian Paints - India TV News",
+        "From Asian Paints, Reliance Industries, TCS to Biocon \u2013 Here are 8 stocks to watch - financialexpress.com"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "AXISBANK.NSE": {
+      "sentiment_score": 0.1536,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 34,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Axis Bank to announce Q4 results on April 24: Here are 4 key factors to watch - financialexpress.com",
+        "Axis Bank Share Price Today Up 4% - Equitymaster",
+        "Axis Bank to review Q1 financial results at July 17 board meeting - Investing.com India"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "BAJAJ-AUTO.NSE": {
+      "sentiment_score": 0.0669,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 26,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Four reasons Bajaj Auto shares are in focus today - financialexpress.com",
+        "Bajaj Auto, Tata Motors, Hero MotoCorp Lead Auto Stock Gains as China Signals Softer Rare Earth Policy - outlookbusiness.com",
+        "Bajaj Auto shares take a beating, touch 52-week low; here's what is driving the share price down - Fortune India"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "BAJFINANCE.NSE": {
+      "sentiment_score": -0.2598,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 25,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Bajaj Finance Q4FY25 results: Net profit rises 19% to Rs 4,546 crore - Business Standard",
+        "Bajaj Finance Q4 Results Live: PAT rises 19% YoY to Rs 4,546 crore; Co announces 1:2 stock split, 4:1 bon... - The Economic Times",
+        "Bajaj Finance Q4 results: Net profit rises 17% to Rs 4,480 crore, firm declares Rs 12 special dividend, Rs... - Moneycontrol"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "BHARTIARTL.NSE": {
+      "sentiment_score": -0.3936,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 24,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Q4 Results Highlights: Max Financial tops estimates; Dalmia Bharat Sugar profit doubles - CNBC TV18",
+        "Bharti Airtel share price rises 2% after company signs deal with Elon Musk's SpaceX; Do you own? - Mint",
+        "Risks To Shareholder Returns Are Elevated At These Prices For Bharti Airtel Limited (NSE:AIRTELPP) - simplywall.st"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "BPCL.NSE": {
+      "sentiment_score": -0.1761,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 22,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "BPCL Shares Rise As Q4 Profit Beats Estimates On Strong Refining Margins - NDTV Profit",
+        "BPCL shares in focus after Q4 PAT falls 8% YoY to Rs 4,392 crore - The Economic Times",
+        "BPCL Q3 Results: Net profit rises sequentially but lower than estimates; dividend declared - CNBC TV18"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "BRITANNIA.NSE": {
+      "sentiment_score": 0.0353,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 24,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Individual investors own 27% of Britannia Industries Limited (NSE:BRITANNIA) shares but public companies control 51% of the company - simplywall.st",
+        "Britannia Industries shares rise 2.04% in today's trading session - Moneycontrol",
+        "Britannia Industries Share Price Today Highlights, 25 Mar, 2025: Britannia Industries on the radar - Market News - financialexpress.com"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "CIPLA.NSE": {
+      "sentiment_score": -0.406,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 26,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Cipla share price falls the most among Nifty companies - Hindustan Times",
+        "Cipla shares at \u20b91,800 or \u20b91,465? Analysts divided on pharma stock post Q4 - Business Standard",
+        "Cipla Share Price Target 2025: Brokerages mixed after Q4 results, dividend announcement - ET Now"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "COALINDIA.NSE": {
+      "sentiment_score": 0.273,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 45,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Coal India share price: Is this a stock to buy ahead of Q4 results 2025? - Mint",
+        "Coal India Q4 results: Profit jumps 12% YoY, revenue slips 1%; declares dividend of \u20b95.15 - Mint",
+        "Coal India Q4 Results: Net profit beats estimates, final dividend of \u20b95.15/shr declared - CNBC TV18"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "DIVISLAB.NSE": {
+      "sentiment_score": -0.6887,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 24,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Divis Laboratories Ltd up for third consecutive session - Business Standard",
+        "Divis Lab Share Price Highlights : Divis Lab closed today at \u20b96132.30, up 0.66% from yesterday's \u20b96092.20 | Stock Market News - Mint",
+        "Divi's Labs: Strong Q3, growth outlook positive, valuation debate continues - Business Standard"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "DMART.NSE": {
+      "sentiment_score": 0.0663,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 24,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Avenue Supermarts shares slip after \u20b9634 Crore block deal - India Infoline",
+        "DMart share price cracks 6% amid reports of \u20b9634-crore block deal in Radhakishan Damani-led stock - Mint",
+        "D-Mart parent Avenue Supermarts shares see sharp fall after \u20b9634 crore block deal - CNBC TV18"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "DRREDDY.NSE": {
+      "sentiment_score": 0.086,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 23,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Stock Recommendations Today: Defence, NBFCs, Aviation, Dr. Reddys Labs, Yes Bank Are On Brokerages Radar - NDTV Profit",
+        "Dr. Reddy's Laboratories Full Year 2025 Earnings: In Line With Expectations - simplywall.st",
+        "Dr Reddy's Laboratories is the top Nifty 50 gainer after Nomura upgrades rating to \u2018buy\u2019 - CNBC TV18"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "EICHERMOT.NSE": {
+      "sentiment_score": -0.2711,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 21,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "If You'd Invested Rs 10,000 in Eicher Motors 10 Years Ago, Here's How Much You'd Have Today - Equitymaster",
+        "Eicher Motors shares drop up to 3% amid buzz of zero tariff on Harley-Davidson bikes - Moneycontrol",
+        "Eicher Motors shares decline as shrinking margin makes investors nervous; check all Q4 numbers - Upstox"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "GODREJCP.NSE": {
+      "sentiment_score": 0.0399,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 23,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Godrej Consumer, Emami, Nestle: FMCG stocks rally in weak market; two reasons why the sector is bucking broader trend - Upstox",
+        "Godrej Consumer Q4 profit up, shares fall 3%: 3 reasons why - financialexpress.com",
+        "Godrej Consumer share price target 2025: 500% dividend per share; FMCG stock down 23% in 6 months - BUY, SELL, or HOLD? - ET Now"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "GRASIM.NSE": {
+      "sentiment_score": 0.2441,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 23,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Grasim Industries Q4 Results: Date, Dividend Details, Earnings Call Schedule And More - NDTV Profit",
+        "Grasim Industries gets Overweight rating from Morgan Stanley; check target price - ET Now",
+        "Asian Paints Shares Lose Sheen After Competition Commission Probes Grasim Complaint - NDTV Profit"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "HCLTECH.NSE": {
+      "sentiment_score": -0.1228,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 28,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Nifty IT index rallies 3% post HCLTech Q4 earnings. Should you buy IT stks? - Business Standard",
+        "HCL Tech shares jump over 7% post Q4 earnings - The Hindu",
+        "HCL Tech share price jumps 7% after Q4 results. Should you buy, sell or hold? - Mint"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "HDFCBANK.NSE": {
+      "sentiment_score": -0.3889,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 38,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "HDFC Bank-backed retail-focused NBFC company debuts on BSE & NSE; Jumps 14.93 per cent to intraday high! - DSIJ",
+        "Stock Market Highlights: Nifty, Sensex Off Days Low But End Down; HDFC Bank Drags - NDTV Profit",
+        "HDB Financial Services share price today: HDFC Bank subsidiary becomes 8th most valuable NBFC; market cap - Times of India"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "HEROMOTOCO.NSE": {
+      "sentiment_score": -0.4368,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 22,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Hero MotoCorp share price falls after temporary halt at 4 plants; here's when the production will resume - Upstox",
+        "Stock Picks: Sagar Doshi suggests Tata Motors, Mphasis, Hero MotoCorp shares to buy today - 11 June - Mint",
+        "Hero MotoCorp Q3 Results 2025 date, time: Dividend announcement in quarterly earnings report \u2013 Check preview, expectations - ET Now"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "HINDALCO.NSE": {
+      "sentiment_score": -0.096,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 23,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Share Price Target: BUY or SELL Hindalco Industries stock after Q4 results 2025? - ET Now",
+        "Hindalco share price: Should you buy, hold or sell post Q4 results, dividend announcement? - Mint",
+        "Hindalco Industries reports strong Q4 earnings show; should you buy, sell, or hold? - Moneycontrol"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "HINDUNILVR.NSE": {
+      "sentiment_score": 0.0255,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 25,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Hindustan Unilever stock declines nearly 4%, after net profit drops 2.76% at \u20b92540 crore - Upstox",
+        "HUL Q3 Results Highlights: Domestic volume growth flat; Net profit beats estimates, revenue inches up - CNBC TV18",
+        "HUL Q4 Results 2025: Date, Dividend News, Earnings Call Schedule And More - NDTV Profit"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "ICICIBANK.NSE": {
+      "sentiment_score": -0.1816,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 35,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Markets rally in initial trade on foreign fund inflows, buying in Reliance, ICICI Bank - The Hindu",
+        "If EPS Growth Is Important To You, ICICI Bank (NSE:ICICIBANK) Presents An Opportunity - simplywall.st",
+        "Dreamfolks Services Share Price Drops Nearly 5% After Programme Closures with ICICI and Axis Bank - Samco"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "INDUSINDBK.NSE": {
+      "sentiment_score": -0.1016,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 34,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "IndusInd Bank Q4 Results: Net loss of \u20b92,328 crore a first in 20 years as accounting issues, MFI stress weigh - CNBC TV18",
+        "IndusInd Bank share price falls ahead of Q4 results today. What to expect, should you buy or sell? - Mint",
+        "IndusInd Bank Q4 results: Record \u20b92,329 cr loss posted on accounting lapses - Business Standard"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "INFY.NSE": {
+      "sentiment_score": -0.0707,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 24,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Infosys Share Price Highlights Today, 27 Nov, 2024: Infosys shares closes up by just 0.15% on NSE - financialexpress.com",
+        "Infosys Limited's (NSE:INFY) Share Price Is Matching Sentiment Around Its Earnings - simplywall.st",
+        "IT Sector Q1 Earnings Preview: PL cuts ratings on Infosys, Mphasis; TCS among top picks - Mint"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "ITC.NSE": {
+      "sentiment_score": 0.0761,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 44,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "ITC Hotels shares debut at \u20b9188; down 30% over last discovered price - Fortune India",
+        "BAT offloads $1.5 billion stake in ITC via block deal - Mint",
+        "Why ITC Share Price is Falling - Equitymaster"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "JSWSTEEL.NSE": {
+      "sentiment_score": 0.4985,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 26,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Metal shares in demand; Tata Steel, JSW, JSPL, Welspun, SAIL rally up to 4% - Business Standard",
+        "Stocks to buy today: Ambuja Cement, Hero MotoCorp, Apollo Hospitals, JSW Steel - ET Now",
+        "Metal stocks: Tata Steel, SAIL, JSW Steel, JSPL, Jindal Stainless shares rally today; know the reason - ET Now"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "KOTAKBANK.NSE": {
+      "sentiment_score": 0.0397,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 33,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Kotak Mahindra Bank Share Price Target 2025 To 2030 - Exla Resources",
+        "Kotak Mahindra Bank shares drop up to 2% on Macquarie downgrade - TradingView",
+        "YES Bank, RBL Bank, IDFC First, KVB, Bandhan Bank: Q1 results preview - Business Today"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "LT.NSE": {
+      "sentiment_score": -0.054,
+      "sentiment_label": "neutral",
+      "confidence": 0.6752,
+      "news_count": 9,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Larsen & Toubro Subsidiary Wins $50 million Order Under Sustainability Segment; Shares Surge - Goodreturns",
+        "Penny stock below Rs 75: Electrical works EPC company receives order of Rs 12,60,00,000 from Larsen and Toubro - DSIJ",
+        "Larsen & Toubro Maintains Stability Amid Competitive Construction Sector Dynamics - MarketsMojo"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "LTIM.NSE": {
+      "sentiment_score": 0.2417,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 21,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "LTIMindtree: 5 key highlights from Investor Day; share price targets - Business Today",
+        "Stock Market Highlights: Market gains for seventh consecutive session, Nifty hits four-month high - CNBC TV18",
+        "Solid Earnings May Not Tell The Whole Story For LTIMindtree (NSE:LTIM) - simplywall.st"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "MARUTI.NSE": {
+      "sentiment_score": 0.1623,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 45,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Maruti Suzuki Q3 Results: PAT rises 13% YoY to Rs 3,525 crore, revenue advances 16% - The Economic Times",
+        "9 Stocks To Buy For Short Term: Analysts suggest buying 6 largecap, 2 midcap, 1 smallcap scrips for 2 weeks; Maruti Suzuki, SBI on the list - Zee Business",
+        "Maruti Suzuki India Q4 Results: Date, Dividend Details, Earnings Call Schedule And More - NDTV Profit"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "NESTLEIND.NSE": {
+      "sentiment_score": 0.3124,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 45,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Maggi-maker Nestle India to announce Q4 results tomorrow: 4 key factors to watch - financialexpress.com",
+        "Nestle India quarterly results FY 2025-26 dates: Annual earnings schedule of Rs 2.10 lakh crore FMCG giant - ET Now",
+        "Nestle India, Axis Bank, Dabur India: How to trade these buzzing largecap stocks - Business Today"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "NTPC.NSE": {
+      "sentiment_score": -0.0462,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 25,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "NTPC Green Energy Share Price & IPO Listing Highlights: NGEL shares end 9% higher after premium listing - BusinessLine",
+        "NTPC Green Energy Share Price Highlights: Stock ends at \u20b9121.25 apiece on NSE, 12.27% premium to IPO price - Mint",
+        "NTPC Green Energy shares list at 3.24% premium over IPO price on NSE - Moneycontrol"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "ONGC.NSE": {
+      "sentiment_score": 0.2546,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 21,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "ONGC Q4 Results: PSU Oil major's net profit drops 20% YoY to \u20b98,856 crore, final dividend of \u20b91.25/share declared - Mint",
+        "Q4 Results Highlights: Oil India profit rises 30% QoQ; IndusInd Bank slips into loss - CNBC TV18",
+        "Penny stock under \u20b915 surges 20% on order win from ONGC - Mint"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "PIDILITIND.NSE": {
+      "sentiment_score": -0.0212,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 23,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Stocks to watch: Hindustan Unilever, Pidilite Industries, SBI and more shares in focus on Oct 24 - CNBC TV18",
+        "Pidilite Industries shares surge over 8% after strong Q3 results; check details - Upstox",
+        "Pidilite Industries Ltd (NSE:PIDILITIND) Q3 2025 Earnings Report Preview: What To Expect - Yahoo Finance"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "POWERGRID.NSE": {
+      "sentiment_score": 0.2746,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 31,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Power Grid Corporation Faces Diverging Technical Trends Amid Market Challenges - MarketsMojo",
+        "Power Grid shares sink on Q4 show, Morgan Stanley maintains 'equal-weight' - Moneycontrol",
+        "Power Grid shares dip after Q4 profit miss; Morgan Stanley not bullish - buy, sell or hold? - Zee Business"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "RELIANCE.NSE": {
+      "sentiment_score": -0.0133,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 29,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Reliance Industries shares up 25% in 2025; 4 reasons stock could gain another 18% - The Economic Times",
+        "Street view: Why are analysts bullish on Reliance Industries stock? - Business Standard",
+        "From Asian Paints, Reliance Industries, TCS to Biocon \u2013 Here are 8 stocks to watch - financialexpress.com"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "SBIN.NSE": {
+      "sentiment_score": 0.351,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 53,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Why State Bank of India (SBI) Share Price is Falling - Equitymaster",
+        "SBI to label RCom loan account as 'fraud', names Anil Ambani in RBI report - Business Standard",
+        "SBI labels Reliance Communications' loan account as \u2018fraud\u2019; bank to report Anil Ambani's name to RBI - Mint"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "SHREECEM.NSE": {
+      "sentiment_score": 0.1834,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 24,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Shree Cement Q4 FY25: Profit Falls 16% to \u20b9556 crore Despite Revenue Rising 3.3% to \u20b95,240 crore - Groww",
+        "Shree Cement Q4 Results: Profit, revenue above estimates; \u20b960 dividend declared - CNBC TV18",
+        "Shree Cement Q4 results: Net profit falls 16% to \u20b9556 crore, declares dividend of \u20b960 - Mint"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "SUNPHARMA.NSE": {
+      "sentiment_score": 0.0472,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 23,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Sun Pharma Q4 Results Preview: Sales Growth Led By gRevlimid, R&D Guidance For FY26 In Focus - NDTV Profit",
+        "Sun Pharma Q4FY25 results preview: Specialty push and domestic growth to lift earnings - Moneycontrol",
+        "Analysts offer mixed views on Sun Pharma's near term growth; revise target - Business Standard"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "TATACONSUM.NSE": {
+      "sentiment_score": -0.3433,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 21,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Tata Consumer Products Dividend: Last Day To Buy Shares To Qualify \u2014 Details Here - NDTV Profit",
+        "TATA Consumer Products shares decline slightly in today's session - Moneycontrol",
+        "Tata Consumer Products Q4 results: Net profit up 59.2% to \u20b9345 crore - Business Standard"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "TATAMOTORS.NSE": {
+      "sentiment_score": -0.0128,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 24,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Stock recommendation today: Sell Tata Motors shares amid fresh breakdown - Business Standard",
+        "Tata Motors share price down 25% in the last 1 year; is it time to buy this Tata Group stock? - Mint",
+        "Tata Motors Shares Jump 4% After CV Business Demerger Approval & India-UK Trade Boost - Samco"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "TATASTEEL.NSE": {
+      "sentiment_score": -0.3389,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 24,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Tata Steel share price: Tata stock rises for 4th consecutive day; up 15% YTD - Gaurang Shah's strategy - ET Now",
+        "Why Tata Steel Share Price is Rising? - Equitymaster",
+        "Tata Steel shares surge over 3% as global steel futures rally on China demand rebound - The Economic Times"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "TCS.NSE": {
+      "sentiment_score": 0.3085,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 25,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "TCS shares down 2%, hits 8-month low; stock down 8% thus far in February - Business Standard",
+        "Tata Consultancy Services Stock Among Top Losers on Nifty 50 in Today's Session - Moneycontrol",
+        "TCS, Tata Motors, Tata Tech: 3 Tata Group stocks in focus today, here's why - Business Today"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "TECHM.NSE": {
+      "sentiment_score": 0.1158,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 25,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Buy Tech Mahindra, AB Capital & Finolex Industries shares, said Axis Securities - Business Today",
+        "Nifty 50 Top Gainers, Losers On June 17: Tech Mahindra, Infosys To Sun Pharma - NDTV Profit",
+        "Where Will Tech Mahindra's Share Price be in 3 Years? - Equitymaster"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "TITAN.NSE": {
+      "sentiment_score": 0.0525,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 29,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Titan rises 4% as Macquarie maintains 'Outperform'; top gainer on BSE, NSE - Business Standard",
+        "Titan share price: Outperform rating by Macquarie, target above Rs 4100 - 5 REASONS - ET Now",
+        "Titan shares fall over 3% after Q2 earnings disappoint; Should you Buy, Sell, or Hold? - financialexpress.com"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "ULTRACEMCO.NSE": {
+      "sentiment_score": 0.0552,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 26,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "UltraTech Cement Shares Experience Slight Dip Amid High Trading Volume - Moneycontrol",
+        "UltraTech, Ramco, Dalmia, JK Lakshmi Cement hit 52-wk highs in weak market - Business Standard",
+        "UltraTech Cement, India Cements, JK Cement Q1 Results Schedule Announced \u2014 Check Key Details - NDTV Profit"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "UPL.NSE": {
+      "sentiment_score": 0.4512,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 24,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "UPL share price declines 5% after Q4 Results, Dividend declaration: Should you Buy, Sell or Hold the stock? - Mint",
+        "UPL shares dip 5% despite strong Q4 results: Here's what the brokerages say - Business Standard",
+        "UPL Share Price: Decline 5% despite strong Q4 profit numbers - BusinessLine"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "WIPRO.NSE": {
+      "sentiment_score": 0.1535,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 27,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Should Weakness in Wipro Limited's (NSE:WIPRO) Stock Be Seen As A Sign That Market Will Correct The Share Price Given Decent Financials? - simplywall.st",
+        "Wipro Announces Results for the Quarter and Year Ended March 31, 2025 - Business Wire",
+        "Wipro Q4 Results: PAT rises 26% YoY to Rs 3,570 crore, beats estimates - The Economic Times"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "ALKEM.NSE": {
+      "sentiment_score": 0.387,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 24,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Alkem Laboratories rises 3% in trade; What is driving this pharma stock - Business Standard",
+        "Block deals today: Tata Technologies, ABFRL, Alkem Labs shares react - details - ET Now",
+        "Stocks to Watch, June 4: YES Bank, Tata Technologies, Alkem Labs, Vodafone Idea, Ola Electric, Techno Electric, Vedanta, and more - Upstox"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "AMBER.NSE": {
+      "sentiment_score": -0.4913,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 23,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Amber International Holding Limited Reports First Quarter 2025 Unaudited Financial Results - PR Newswire",
+        "F&O arena gets bigger: NSE to add four more stocks to F&O segment from June 27; This includes\u2026 - financialexpress.com",
+        "Amber Enterprises shares rise 9%, hit record high; here's why - Business Today"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "AUBANK.NSE": {
+      "sentiment_score": 0.2777,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 21,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Should you buy or sell AU Small Finance Bank shares post its Q4 results? - Business Standard",
+        "AU Small Finance Bank Ltd (NSE:AUBANK) Q4 2025 Earnings Call Highlights: Strong Deposit and ... - Yahoo Finance",
+        "AU Small Finance Bank share price jumps 6% after Q4 results. Should you buy or sell? - Mint"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "AUROPHARMA.NSE": {
+      "sentiment_score": 0.3295,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 20,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Aurobindo Pharma shares fall post Q4; Should you buy, sell or hold? - Moneycontrol",
+        "Top stocks to watch: Tata Motors, Infosys, Arisinfra, Hindalco, Timex Group, Auro Pharma, RITES - Business Today",
+        "Aurobindo Pharma arm gets USFDA nod for leukemia drug; share price jumps over 4.5% - Upstox"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "BANDHANBNK.NSE": {
+      "sentiment_score": 0.0905,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 14,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Bandhan Bank Q4 results: Net interest income falls; asset quality stable - CNBC TV18",
+        "Bandhan Bank Third Quarter 2025 Earnings: Revenues Beat Expectations, EPS Lags - simplywall.st",
+        "Bandhan Bank (NSE:BANDHANBNK) Is Due To Pay A Dividend Of \u20b91.50 - simplywall.st"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "BANKBARODA.NSE": {
+      "sentiment_score": 0.3678,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 19,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "BoB, MCX, REC: Top stock picks by Chandan Taparia of MOFSL; check targets - Business Standard",
+        "Bank of Baroda sets board meeting date to declare Q4 results 2025, dividend - Mint",
+        "Bank of Baroda Q2 results on Friday, Oct 25; what are key expectations? - Business Standard"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "BATAINDIA.NSE": {
+      "sentiment_score": -0.0058,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 20,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Q4 Results Highlights: Bata India consolidated net profit declines 28%, board recommends dividend of \u20b99 per share for FY25 - Upstox",
+        "Bata India Q4 result: Net profit falls 28% to \u20b945.9 cr; dividend declared - Business Standard",
+        "Bata India Q4 Results: Profit Falls 28%; Dividend Declared - NDTV Profit"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "BERGEPAINT.NSE": {
+      "sentiment_score": -0.1522,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 17,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Berger Paints India (NSE:BERGEPAINT) Is Aiming To Keep Up Its Impressive Returns - simplywall.st",
+        "Berger Paints Q4 FY25 Results: PAT grows better-than-expected 18%; 380% dividend declared - Zee Business",
+        "Q4 Results Highlights: Eicher Motors Q4 profit up 27% at \u20b91,362 crore; board approves dividend of \u20b970 - Upstox"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "BIOCON.NSE": {
+      "sentiment_score": -0.0959,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 23,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Q2 Results 2024 Updates: Biocon reports loss of Rs 16 cr; revenue at Rs 3,590.4 cr - Moneycontrol",
+        "Biocon Shares Gain 2% as Arm Launches Drug in Japan - Equitypandit",
+        "Biocon Ltd soars 3.52%, Gains for third straight session - Business Standard"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "BOSCHLTD.NSE": {
+      "sentiment_score": -0.1977,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 18,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "BSE 500 Sees Mixed Momentum as Market Consolidates on Global Cues - Value Research",
+        "Bosch Q3 Results | Net profit dips 12%, revenue up 6%; approves \u20b9595-crore asset sale - CNBC TV18",
+        "Bosch Q3 results: Net profit dips 12% to Rs 458 cr, revenue at Rs 4,466 cr - Business Standard"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "CADILAHC.NSE": {
+      "sentiment_score": -0.1224,
+      "sentiment_label": "negative",
+      "confidence": 0.5709,
+      "news_count": 8,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Closing Bell: Nifty ends June series below 10,300; ITC, Hero MotoCorp top gainers - Moneycontrol",
+        "Closing Bell: Market ends marginally higher amid volatility; metals outshine, realty, bank drag - Moneycontrol",
+        "Share market HIGHLIGHTS: Sensex ends 572 points down, Nifty below 10,600; Maruti Suzuki down 4.9% - financialexpress.com"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "CANFINHOME.NSE": {
+      "sentiment_score": -0.1175,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 14,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Can Fin Homes zooms 8% after stellar Q2FY25 results, Jefferies says 'Buy' - Business Standard",
+        "Can Fin Homes Q4 Results: Profit Beats Estimates - NDTV Profit",
+        "Q4 Results Highlights April 23, 2025: Tata Consumer profit rises 59%, Bajaj Housing & Maharashtra Scooters Q4 PAT zooms, HCL Tech, AU Small Finance surges - BusinessLine"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "COFORGE.NSE": {
+      "sentiment_score": -0.3963,
+      "sentiment_label": "negative",
+      "confidence": 0.8394,
+      "news_count": 22,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Coforge Limited's (NSE:COFORGE) Stock Is Rallying But Financials Look Ambiguous: Will The Momentum Continue? - simplywall.st",
+        "Bullish breakout: Wipro, Coforge among 7 IT stocks set for up to 12% gains - The Economic Times",
+        "Coforge Shares Surge 10% After Stock Split, $1.6 Billion Deal, Two Key Acquisitions - outlookbusiness.com"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "COLPAL.NSE": {
+      "sentiment_score": 0.0,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 20,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Colgate-Palmolive (India) Q4 Results: Profit down 6% at Rs 355 crore - The Economic Times",
+        "Colgate-Palmolive India Q4 Results: Profit Falls Over 6% But Meets Estimates - NDTV Profit",
+        "Colgate Palmolive India Q4 Results: Revenue Declines, EBITDA Falls 9% QoQ; Rs 26 Dividend Announced - Goodreturns"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "CROMPTON.NSE": {
+      "sentiment_score": -0.1594,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 22,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Crompton Greaves misses quarterly profit view on soft demand for electrical goods - ET Retail",
+        "PVR Inox, Crompton, IEX: 5 smallcap stks see Death Cross; can dip up to 13% - Business Standard",
+        "Five Stocks To Buy Today: Apollo Hospital, Voltas, Crompton, Among Others - NDTV Profit"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "DABUR.NSE": {
+      "sentiment_score": 0.1661,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 22,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Nestle India, Axis Bank, Dabur India: How to trade these buzzing largecap stocks - Business Today",
+        "Dabur Q4 Results: Slight miss on profit and revenue; declares final dividend - CNBC TV18",
+        "Q4 results today: Coal India, Dabur among 49 companies to announce earnings on Wednesday - The Economic Times"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "DIXON.NSE": {
+      "sentiment_score": -0.001,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 23,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Dixon Technologies shares stare at a 37% downside, price target revised - Business Today",
+        "Stock market today: Dixon Technologies, Mahanagar Gas among 10 stocks in F&O ban list on Jan 22 - Mint",
+        "Dixon Technologies shares slip 17% in two sessions: Price targets, technicals and more - Business Today"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "DLF.NSE": {
+      "sentiment_score": -0.437,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 21,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "DLF shares rise 2% as luxury home project fetches Rs 11,000 crore in a week - The Economic Times",
+        "Should you buy DLF shares for long term now? Fundamental stock picks and more - Zee Business",
+        "DLF stock rises 3%, rallies for second consecutive day after posting strong Q3 earnings; Buy or sell? - Mint"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "FEDERALBNK.NSE": {
+      "sentiment_score": 0.1363,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 17,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Federal Bank Q4 earnings: Net profit rises to Rs 1,030 crore, board declares dividend - Business Today",
+        "Accumulate Federal Bank; target of Rs 199: Geojit Financial Services - TradingView",
+        "Spandana Sphoorty, Syrma SGS, Gillette India, Jio Financial Services, Federal Bank: Check top buzzing stocks of the day - Upstox"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "GAIL.NSE": {
+      "sentiment_score": -0.1524,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 23,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "GAIL India Lists AAA Rated Debentures on NSE and BSE - Groww",
+        "Q4 Results 2025 Highlights: Bharti Airtel profit skyrockets multi-fold to Rs 11,021.80 crore; Tata Motors profit drops by 51.34% - financialexpress.com",
+        "GAIL (India) - Positive Breakout: These 5 stocks cross above their 200 DMAs - The Economic Times"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "GLENMARK.NSE": {
+      "sentiment_score": 0.5535,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 23,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Stocks To Watch: From TCS, Swiggy, Coforge to Glenmark Pharma- Here are 9 stocks to watch - financialexpress.com",
+        "Stocks to watch: RIL, ONGC, Swiggy, Paras Defence, Glenmark Pharma, IRCON, Senores Pharma in focus - Fortune India",
+        "10 Stocks To Buy For Short Term: Analysts suggest buying largecap, midcap scrips for 2 weeks; Glenmark Pharma, LIC, HPCL on the list - Zee Business"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "GODREJPROP.NSE": {
+      "sentiment_score": -0.0564,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 20,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Godrej Properties Q1 Results: Cons PAT skyrockets 316% YoY, revenues decline 21% - The Economic Times",
+        "Q2 Results Highlights: HUL projects stable demand; Pidilite net profit jumps 17.8% to Rs 540.3 cr - Moneycontrol",
+        "Stocks to buy or sell: Sagar Doshi of Nuvama suggests United Spirits, Godrej Prop, Chalet Hotels today - 18 December - Mint"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "HAVELLS.NSE": {
+      "sentiment_score": -0.0481,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 23,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "KEI Industries, Polycab, Havells India, RR Kabel shares down up to 15% as UltraTech forays into wires and cables segment - Upstox",
+        "Havells India Q4: Cautious demand commentary sends stock 5% lower, brokerages mixed - Moneycontrol",
+        "Why did Havells India share price fall 5% despite healthy Q4 results? Key reasons explained - Mint"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "IDFCFIRSTB.NSE": {
+      "sentiment_score": 0.2878,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 19,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "IDFCFIRSTB Stock Price and Chart \u2014 NSE:IDFCFIRSTB - TradingView",
+        "Up 8% in 5 days, where are IDFC First Bank shares headed? - Business Today",
+        "IDFC First Bank, IDFC merger: Will it influence Nifty Bank stocks? - Business Today"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "INOXLEISUR.NSE": {
+      "sentiment_score": 0.0514,
+      "sentiment_label": "neutral",
+      "confidence": 0.3,
+      "news_count": 0,
+      "source": "sector_analysis_Other",
+      "sample_headlines": [],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "JINDALSTEL.NSE": {
+      "sentiment_score": -0.139,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 15,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Jindal Steel Q4 results: \u20b9304 crore loss despite higher sales - Business Standard",
+        "Jindal Steel and Power Q1 result: Profit grows to \u20b91,456.54 crore - Mint",
+        "Jindal Steel & Power Q2 Results: Profit Falls 38% But Beats Estimates - NDTV Profit"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "LTTS.NSE": {
+      "sentiment_score": -0.1275,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 23,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Q2 Results 2024: Bajaj Auto, L&T Technology Services, Mphasis, CRISIL, Tips Music, others releasing Q2FY25 results today - financialexpress.com",
+        "L&T Technology Services Q3FY25 results: Net profit drops 4% to Rs 322.4 cr - Business Standard",
+        "LTTS Q3 Results: Net profit at \u20b9322 crore; targets 10% FY25 revenue growth in Constant Currency - CNBC TV18"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "LUPIN.NSE": {
+      "sentiment_score": -0.2502,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 22,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Lupin Q4 Results 2025 Today: Analysts Expect Strong YoY Growth on Robust Sales, Most Brokerages Rate \u2018Buy\u2019 - Goodreturns",
+        "Lupin Q4 Results: Profit More Than Doubles, Beats Estimates - NDTV Profit",
+        "Lupin Q3 FY2025 Results - lupin.com"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "MARICO.NSE": {
+      "sentiment_score": -0.2326,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 23,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Marico leading the FMCG pack; likely to hit fresh record highs - The Economic Times",
+        "Marico Q4FY25 Results: Date, Earnings Call Schedule, Dividend And Other Key Details - NDTV Profit",
+        "With EPS Growth And More, Marico (NSE:MARICO) Makes An Interesting Case - simplywall.st"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "MCDOWELL-N.NSE": {
+      "sentiment_score": 0.2615,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 13,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Stock market today: Trade setup for Nifty 50 to India VIX, five stocks to buy or sell on Wednesday \u2014 June 5 - Mint",
+        "United Spirits Shares Downgraded To Sell By Dolat Capital, Cuts Target Price \u2014 Heres Why - NDTV Profit",
+        "United Spirits Ltd Share Price Today, MCDOWELL-N Share Price NSE, BSE - Business Today"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "MINDTREE.NSE": {
+      "sentiment_score": 0.1195,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 21,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Ahead of Q4 results, LTI Mindtree shares jump 5%, Bajaj Housing Finance in red, Tata Consumer sees choppy... - Moneycontrol",
+        "LTIMindtree Q4FY25 results: Net profit up 2.6% to \u20b91,128.5 crore - Business Standard",
+        "LTIMindtree Q4 Results: Reports Modest Profit Growth of 2.6%, Declares \u20b945 Final Dividend - Groww"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "MOTHERSON.NSE": {
+      "sentiment_score": 0.3434,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 20,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Motherson Sumi Share Price Target By 2025 To 2050 - Exla Resources",
+        "Samvardhana Motherson Internatio Q3 Results - Mint",
+        "Buy Samvardhana Motherson International, target price Rs 170: JM Financial - The Economic Times"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "MPHASIS.NSE": {
+      "sentiment_score": -0.1615,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 24,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Stock Picks: Sagar Doshi suggests Tata Motors, Mphasis, Hero MotoCorp shares to buy today - 11 June - Mint",
+        "Infosys, Mphasis, Birlasoft: Key support and resistance levels for these 3 IT stocks - Business Today",
+        "stocks in news buzzing stocks top gainers and losers april 9 2025 tcs nesle mphasis share price bse nse - Zee Business"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "NMDC.NSE": {
+      "sentiment_score": -0.0409,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 22,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "NMDC Q4 Results: Profit Falls 22%; Dividend Declared - NDTV Profit",
+        "NMDC Limited's (NSE:NMDC) largest shareholders are state or government with 61% ownership, individual investors own 20% - simplywall.st",
+        "This PSU metal stock faces sharp downside risk - Citi issues Sell alert - Zee Business"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "PAGEIND.NSE": {
+      "sentiment_score": 0.2059,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 19,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Stocks to Watch, May 15: Page Industries, Eicher Motors, Apollo Tyres, PN Gadgil, Cochin Shipyard, ITC Hotels, PB Fintech, Godfrey Phillips India - Upstox",
+        "Page Industries dividend, Q3 results FY 2025 date: Fresh announcement after Rs 250 reward in Q2 by Jockey maker - ET Now",
+        "Page Industries Declares Interim Dividend Following Q3 Earnings - NDTV Profit"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "PERSISTENT.NSE": {
+      "sentiment_score": -0.1577,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 24,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Persistent Systems Q4: Shares rise over 3.5% as PAT grows 6.1% QoQ, board recommends final dividend of \u20b915/share - Upstox",
+        "Persistent Systems shares under pressure, slip 7% ahead of Q3 results - Business Standard",
+        "Persistent Systems Q3 results: Net profit grows 30% YoY to Rs 373 crore, revenue up 23% - Moneycontrol"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "PNB.NSE": {
+      "sentiment_score": 0.1096,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 24,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "PNB shares in focus following completion of 21% stake sale in India SME Asset Reconstruction Company - The Economic Times",
+        "PNB share price: PSU bank to declare Q4 results today. Should you buy? - Mint",
+        "PNB share price: Is this a stock to buy after Q4 results 2025? - Mint"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "POLYCAB.NSE": {
+      "sentiment_score": -0.3906,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 23,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Polycab India Q3 results: PAT rises 11% YoY to Rs 464 cr; stock down over 6% - The Economic Times",
+        "Polycab India Q3 results: Net profit rises 11% to Rs 458 crore, revenue jumps to Rs 5,226 crore - Moneycontrol",
+        "Opening Bell: Gap-down opening seen for Sensex, Nifty; Polycab, Hindustan Zinc, Urgo Capital, Delhivery, M&M shares in focus - Fortune India"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "PVR.NSE": {
+      "sentiment_score": 0.1621,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 24,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Stock market today: PVR Inox, Varun Beverages, Godrej Consumer hit 52-week low; here\u2019s why - Upstox",
+        "PVR INOX plans to add 200 screens in 2 yrs: ED Sanjeev Kumar Bijli - Business Standard",
+        "Nuvama sees 96% upside in PVR Inox - financialexpress.com"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "RELAXO.NSE": {
+      "sentiment_score": 0.0268,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 22,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Add Relaxo Footwears, target price Rs 600: HDFC Securities - The Economic Times",
+        "Relaxo falls 3% on weak Q1FY25 results; record date for dividend announced - Business Standard",
+        "Relaxo Footwears (NSE:RELAXO) sheds \u20b99.7b, company earnings and investor returns have been trending downwards for past three years - simplywall.st"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "SAIL.NSE": {
+      "sentiment_score": 0.06,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 24,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "IRCTC, Cummins India, SAIL: How to trade these 3 buzzing stocks ahead of results - Business Today",
+        "SAIL Q4 result: Net profit jumps 11% to \u20b91,251 crore, dividend declared - Business Standard",
+        "Tata Steel vs JSW Steel vs SAIL As Metal Stocks Surge On Safeguard Duty Update, Which Stock Should You Buy - Goodreturns"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "SIEMENS.NSE": {
+      "sentiment_score": -0.0735,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 20,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Siemens Q1 Results: Profit rises over 20% on-year, revenue and EBITDA decline - CNBC TV18",
+        "Siemens Q4 Results: Net profit zooms 45% to Rs 775 crore - The Economic Times",
+        "Siemens Q4 Results: Net profit rises 45% to \u20b9803 crore, revenue up 11% YoY; dividend declared - Mint"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "SRF.NSE": {
+      "sentiment_score": -0.0701,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 22,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "SRF Q3 Results: Management expects year to end on 'reasonably strong footing'; declares dividend - CNBC TV18",
+        "SRF shares 0.11% as Sensex - The Economic Times",
+        "If You'd Invested Rs 10,000 in SRF 10 Years Ago, Here's How Much You'd Have Today - Equitymaster"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "TORNTPHARM.NSE": {
+      "sentiment_score": 0.141,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 17,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Stocks to watch on October 30: IOC, BPCL, Torrent Pharma, L&T, Tata Power, Dabur, Marico, Voltas and more - Upstox",
+        "Torrent Pharma block deal: 3.1% equity changes hands, says report; stock down over 2% - Upstox",
+        "Torrent Pharmaceuticals Limited Just Missed Earnings And Its Revenue Numbers Were Weaker Than Expected - simplywall.st"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "TRENT.NSE": {
+      "sentiment_score": -0.3629,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 25,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Trent Q4 Results: Standalone Profit Beats Street, Consolidated PAT Sees 55% YoY Decline - Groww",
+        "Trent Q4 Results: Tata group company posts 46% YoY fall in PAT to \u20b9350 crore; \u20b95 dividend declared - Mint",
+        "Trent Q4 Results: Tata Group enterprise ends 5.5% higher after strong EBITDA, margin beat - CNBC TV18"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "VEDL.NSE": {
+      "sentiment_score": 0.1783,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 23,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Q4 Results Highlights: Adani Power Q4 profit down, IOC, Vedanta Q4 profit rises, CRISIL profit up 16%, Ujjivan SFB profit slumps, Bajaj Finance, Bajaj Finserv, Trent slumps post Q4 results, Vishal Mega Mart jumps 10% - BusinessLine",
+        "Vedanta's shares dip 7% after large block deal; promoter likely seller - Business Standard",
+        "Investors Shouldn't Be Too Comfortable With Vedanta's (NSE:VEDL) Earnings - simplywall.st"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "VIPIND.NSE": {
+      "sentiment_score": -0.1919,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 17,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Share Market Highlights October 23, 2024: Sensex, Nifty end in red; Bajaj Finance gains nearly 5% - BusinessLine",
+        "V I P Industries reports consolidated net loss of Rs 27.36 crore in the March 2025 quarter - Business Standard",
+        "VIP INDUSTRIES Share Price Today Up 9% - Equitymaster"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "VOLTAS.NSE": {
+      "sentiment_score": 0.274,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 24,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Voltas Q2 Results Live: Profit Rises by 265.29% YoY - Mint",
+        "Buy AC stocks Voltas, Blue Star post 30% corrections, says Emkay Global; here's why - Business Today",
+        "Voltas tanks 30% so far in 2025: As brokerages turn cautious, find out what\u2019s the big worry - financialexpress.com"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "WHIRLPOOL.NSE": {
+      "sentiment_score": -0.2982,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 22,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "After Leaping 30% Whirlpool of India Limited (NSE:WHIRLPOOL) Shares Are Not Flying Under The Radar - simplywall.st",
+        "Whirlpool of India stock hits 8-year low, tanks 31% in 2 days; here's why - Business Standard",
+        "Whirlpool India shares hit 20% lower circuit as parent intends to trim stake in firm to 20% from 51%; check details - Upstox"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "ACC.NSE": {
+      "sentiment_score": 0.0444,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 29,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "ACC down nearly 10% in 5 days: Should you buy, sell or hold? - Market News - financialexpress.com",
+        "Stocks to Watch: Coal India, ITC Hotels, Tata Steel, Adani Wilmar, ACC, and more - Mint",
+        "ACC share price declines after Q3 earnings. Should you buy, sell or hold? - Mint"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "ABCAPITAL.NSE": {
+      "sentiment_score": 0.1663,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 19,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Q2 results today: L&T, Tata Power, Dabur, AB Capital, P&G, Protean eGov, TTK Prestige & more to report earnings - Mint",
+        "Buy Tech Mahindra, AB Capital & Finolex Industries shares, said Axis Securities - Business Today",
+        "Aditya Birla Capital Stock Hits All-Time High of Rs 257.5 on NSE, Up About 1% - Moneycontrol"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "ABFRL.NSE": {
+      "sentiment_score": 0.2404,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 23,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Aditya Birla Fashion Retail Q1 Results | Net loss widens to \u20b9161 crore despite revenue jump - CNBC TV18",
+        "Aditya Birla Fashion slips 9%, hits 52-week low after block deal on NSE - Business Standard",
+        "Block deal: ABFRL shares drop 9% on high turnover, Flipkart Investments likely seller - Business Today"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "IRCTC.NSE": {
+      "sentiment_score": -0.345,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 22,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "IRCTC Q4 Results: Net profit rises 26% to \u20b9358 crore, revenue up 10% YoY; Dividend declared - Mint",
+        "IRCTC Q4 results: Net profit jumps to \u20b9358 crore, revenue rises to \u20b91,269 crore - CNBC TV18",
+        "IRCTC Q4 Results: Cons PAT jumps 26% YoY to Rs 358 crore, revenue up 10% - The Economic Times"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "MINDAIND.NSE": {
+      "sentiment_score": -0.0196,
+      "sentiment_label": "neutral",
+      "confidence": 0.3,
+      "news_count": 0,
+      "source": "sector_analysis_Other",
+      "sample_headlines": [],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "NYKAA.NSE": {
+      "sentiment_score": -0.0021,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 23,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "FSN E-Commerce Ventures Limited's (NSE:NYKAA) Shares May Have Run Too Fast Too Soon - simplywall.st",
+        "Nykaa Q2 Results: Net profit soars over 70% and margins improve - CNBC TV18",
+        "Nykaa Q4 Results 2025 On May 30 \u2014 Check Key Details Here - NDTV Profit"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "PAYTM.NSE": {
+      "sentiment_score": -0.0196,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 23,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Paytm karo or think twice: From 164% surge to 9% H1CY25 slide, will it be a comeback story in H2? - The Economic Times",
+        "Here's why Paytm share price slipped 5% in trade on May 13; details here - Business Standard",
+        "Paytm shares hit Rs 700 level, jump 5% amid high turnover today - Business Today"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "POLICYBZR.NSE": {
+      "sentiment_score": 0.2704,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 19,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "PB Fintech shares jump 7%, still need 56% rally to hit Jan high; here's target price - Business Today",
+        "PB Fintech's PAT may rise 155% YoY in Q4; here's what brokerages expect - Business Standard",
+        "PB Fintech shares fall over 5% after company says it will infuse \u20b9696 crore in arm PB Healthcare Services - Upstox"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "STAR.NSE": {
+      "sentiment_score": -0.1359,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 28,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Five Star Business Finance Q2 Results Live: Profit Rise by 34.38% YOY - Mint",
+        "Stock market fall: Star Health, Orchid Pharma, Gensol Engineering hit 52-week low; here's why - Upstox",
+        "Consumer durables shares Voltas, Blue Star down up to 5%; here's why - Business Standard"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "ZOMATO.NSE": {
+      "sentiment_score": 0.0292,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 24,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Eternal Q4 Results: Date, Earnings Call Schedule And More About Zomato Parent Company - NDTV Profit",
+        "Nifty rejig, Zomato & Jio Financial Share Price Highlights: Zomato & Mukesh Ambani-backed Jio Financial shares end in green, up 1% - BusinessLine",
+        "Eternal shares gain 1%, snap two-day losing streak after 61 lakh shares exchange hands in Rs 156-crore... - Moneycontrol"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "ASTRAL.NSE": {
+      "sentiment_score": -0.0371,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 22,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Astral Q4 Results: Profit Down But Beats Estimates - NDTV Profit",
+        "Astral Ltd Standalone March 2025 Net Sales at Rs 1,542.30 crore, up 3.64% Y-o-Y - Moneycontrol",
+        "Astral Q4 profit rises 4% to \u20b91,900 crore, declares dividend - CNBC TV18"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "BALKRISIND.NSE": {
+      "sentiment_score": 0.3097,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 17,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Balkrishna Industries (NSE:BALKRISIND) shareholders have earned a 17% CAGR over the last five years - simplywall.st",
+        "Earnings Release: Here's Why Analysts Cut Their Balkrishna Industries Limited (NSE:BALKRISIND) Price Target To \u20b92,628 - simplywall.st",
+        "With 33% ownership, Balkrishna Industries Limited (NSE:BALKRISIND) insiders have a lot riding on the company's future - simplywall.st"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "CUMMINSIND.NSE": {
+      "sentiment_score": 0.423,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 19,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Q4 Results highlights: Natco Pharma & Granules Q4 profit up, Finolex Q4 profit at \u20b9192 cr, JSW Holdings, 3M India and Bata India profit declines, IRCTC, SAIL, , Dr Agarwals Health Care, Natco Pharma, Welspun Corp to announce Q4 results, LIC, Techno Elec - BusinessLine",
+        "IRCTC, Cummins India, SAIL: How to trade these 3 buzzing stocks ahead of results - Business Today",
+        "Q4 results: IRCTC, Cummins India, 3M India, Bata India, others to declare earnings on May 28; check list - Upstox"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "EXIDEIND.NSE": {
+      "sentiment_score": -0.3531,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 18,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Exide Industries Q4 profit rises 1% to \u20b9187 crore, dividend announced; check record date - Upstox",
+        "Exide Ind gains 4% on investing over Rs 99 crore in Exide Energy Solutions - Business Standard",
+        "Exide Industries (NSE:EXIDEIND) Has Affirmed Its Dividend Of \u20b92.00 - simplywall.st"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "HONAUT.NSE": {
+      "sentiment_score": 0.3225,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 18,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Force Motors, Hitachi Energy, Honeywell Automation, Voltas, RITES: Check top buzzing stocks of the day - Upstox",
+        "Honeywell Automation shares tank 8% after fall in Q2 net profit - Moneycontrol",
+        "Honeywell Automation India Limited's (NSE:HONAUT) top owners are public companies with 75% stake, while 14% is held by institutions - simplywall.st"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "IPCALAB.NSE": {
+      "sentiment_score": 0.0189,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 22,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Stocks to buy or sell: Sagar Doshi of Nuvama recommends Coromandel, Eicher Motors, Ipca Lab tomorrow - Mint",
+        "Q3 results: Hindalco, United Breweries, Ipca, Godfrey Phillips India, SVJN, among companies to post earnings on Feb 13; check list - Upstox",
+        "Ipca Labs Shares Hit Life High As Nomura Hikes Target Price - NDTV Profit"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "LICHSGFIN.NSE": {
+      "sentiment_score": 0.5179,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 21,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "LIC Housing Finance all set to report Q4 results today; here is what investors can expect from the NBFC - Zee Business",
+        "Stocks to buy, sell: Axis Bank, Indus Towers, Suzlon Energy, LIC Housing Finance, L&T Finance, among analysts' top picks - Zee Business",
+        "Stock market today: Manappuram Fin, LIC Housing Fin, RBL Bank among 11 stocks in F&O ban list on August 7 - Mint"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "MAXHEALTH.NSE": {
+      "sentiment_score": -0.1548,
+      "sentiment_label": "negative",
+      "confidence": 0.9,
+      "news_count": 19,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Stocks to buy or sell: Sagar Doshi of Nuvama suggests ONGC, Oberoi Realty, Max Health today - 8 January - Mint",
+        "Max Healthcare Reports Record Sales Amid Rising Interest Expenses and Profitability Challenges - MarketsMojo",
+        "Max Health Q4 Results: Profit, Revenue Surges But Margin Flat - NDTV Profit"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "OBEROIRLTY.NSE": {
+      "sentiment_score": -0.0608,
+      "sentiment_label": "neutral",
+      "confidence": 0.9,
+      "news_count": 18,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "If EPS Growth Is Important To You, Oberoi Realty (NSE:OBEROIRLTY) Presents An Opportunity - simplywall.st",
+        "Oberoi Realty (NSE:OBEROIRLTY) sheds 6.7% this week, as yearly returns fall more in line with earnings growth - simplywall.st",
+        "Oberoi Realty shares rise by 2.01% in today's session - TradingView"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    },
+    "TATACHEM.NSE": {
+      "sentiment_score": 0.525,
+      "sentiment_label": "positive",
+      "confidence": 0.9,
+      "news_count": 19,
+      "source": "comprehensive_analysis",
+      "sample_headlines": [
+        "Tata Chemicals Q4 FY25 Results Preview: Tata group chemical maker likely to report Rs 117 crore profit-Heres what else investors can expect - Zee Business",
+        "Q4 Results 2025 Highlights: Tata Chemicals net loss narrows sharply to Rs 56 crore, firm announces Rs 11 dividend - Moneycontrol",
+        "Tata Chemicals Q4 net loss narrows to \u20b956 crore, revenue up marginally; board recommends FY25 dividend - Upstox"
+      ],
+      "sector": "Other",
+      "timestamp": "2025-07-05T23:15:59.260960"
+    }
+  },
+  "last_update": "2025-07-05T23:15:59.260960",
+  "update_interval_hours": 1
+}

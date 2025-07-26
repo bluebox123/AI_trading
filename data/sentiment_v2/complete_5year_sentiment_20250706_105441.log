@@ -1,0 +1,66 @@
+2025-07-06 10:54:41,035 - complete_sentiment_runner - INFO - Initializing Complete Sentiment Runner
+2025-07-06 10:54:41,331 - advanced_nlp_processor - INFO - spaCy model loaded successfully
+2025-07-06 10:54:41,514 - advanced_nlp_processor - INFO - NLTK components loaded successfully
+2025-07-06 10:54:41,520 - advanced_nlp_processor - INFO - VADER sentiment analyzer loaded
+2025-07-06 10:54:42,619 - advanced_nlp_processor - INFO - FinBERT sentiment analyzer loaded
+2025-07-06 10:54:42,619 - advanced_nlp_processor - INFO - Advanced NLP Processor initialized successfully
+2025-07-06 10:54:42,632 - advanced_confidence_calibration - INFO - Confidence Calibrator initialized successfully
+2025-07-06 10:54:42,632 - intraday_aggregation - INFO - Intraday Aggregator initialized successfully
+2025-07-06 10:54:42,632 - advanced_temporal_weighting - INFO - Advanced Temporal Weighter initialized successfully
+2025-07-06 10:54:42,632 - comprehensive_sentiment_dataset_generator - INFO - Loaded 119 stock symbols
+2025-07-06 10:54:42,636 - comprehensive_sentiment_dataset_generator - INFO - Comprehensive Sentiment Generator initialized successfully
+2025-07-06 10:54:42,636 - advanced_confidence_calibration - INFO - Confidence Calibrator initialized successfully
+2025-07-06 10:54:42,636 - intraday_aggregation - INFO - Intraday Aggregator initialized successfully
+2025-07-06 10:54:42,636 - advanced_temporal_weighting - INFO - Advanced Temporal Weighter initialized successfully
+2025-07-06 10:54:42,636 - integrated_advanced_features - INFO - Integrated Advanced Features initialized successfully
+2025-07-06 10:54:42,638 - complete_sentiment_runner - INFO - Loaded 119 stock symbols from file
+2025-07-06 10:54:42,638 - complete_sentiment_runner - INFO - Loaded 119 stock symbols
+2025-07-06 10:54:42,639 - complete_sentiment_runner - INFO - Date range: 2020-05-01 to 2025-05-31
+2025-07-06 10:54:42,639 - complete_sentiment_runner - INFO - Output directory: complete_5year_sentiment_dataset
+2025-07-06 10:54:42,639 - complete_sentiment_runner - INFO - ================================================================================
+2025-07-06 10:54:42,639 - complete_sentiment_runner - INFO - STARTING COMPLETE 5-YEAR SENTIMENT ANALYSIS
+2025-07-06 10:54:42,639 - complete_sentiment_runner - INFO - ================================================================================
+2025-07-06 10:54:42,639 - complete_sentiment_runner - INFO - Total days: 1857
+2025-07-06 10:54:42,641 - complete_sentiment_runner - INFO - Total stocks: 119
+2025-07-06 10:54:42,641 - complete_sentiment_runner - INFO - Total requests: 220,983
+2025-07-06 10:54:42,641 - complete_sentiment_runner - INFO - Estimated time: 92.1 hours
+2025-07-06 10:54:42,641 - complete_sentiment_runner - INFO - ================================================================================
+2025-07-06 10:54:42,641 - complete_sentiment_runner - INFO - Step 1: Running comprehensive backfill...
+2025-07-06 10:54:43,987 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-01
+2025-07-06 10:54:45,633 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-02
+2025-07-06 10:54:46,990 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-03
+2025-07-06 10:54:48,295 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-04
+2025-07-06 10:54:49,595 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-05
+2025-07-06 10:54:50,954 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-06
+2025-07-06 10:54:52,601 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-07
+2025-07-06 10:54:53,937 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-08
+2025-07-06 10:54:55,232 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-09
+2025-07-06 10:54:56,893 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-10
+2025-07-06 10:54:58,186 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-11
+2025-07-06 10:54:59,560 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-12
+2025-07-06 10:55:00,901 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-13
+2025-07-06 10:55:02,581 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-14
+2025-07-06 10:55:03,931 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-15
+2025-07-06 10:55:05,366 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-16
+2025-07-06 10:55:06,724 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-17
+2025-07-06 10:55:08,011 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-18
+2025-07-06 10:55:09,312 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-19
+2025-07-06 10:55:10,646 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-20
+2025-07-06 10:55:11,947 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-21
+2025-07-06 10:55:13,309 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-22
+2025-07-06 10:55:14,668 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-23
+2025-07-06 10:55:15,977 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-24
+2025-07-06 10:55:17,335 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-25
+2025-07-06 10:55:18,681 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-26
+2025-07-06 10:55:19,987 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-27
+2025-07-06 10:55:21,574 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-28
+2025-07-06 10:55:23,216 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-29
+2025-07-06 10:55:24,527 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-30
+2025-07-06 10:55:25,899 - backfill - WARNING - No data for ADANIENT.NSE on 2020-05-31
+2025-07-06 10:55:27,264 - backfill - WARNING - No data for ADANIENT.NSE on 2020-06-01
+2025-07-06 10:55:28,858 - backfill - WARNING - No data for ADANIENT.NSE on 2020-06-02
+2025-07-06 10:55:30,196 - backfill - WARNING - No data for ADANIENT.NSE on 2020-06-03
+2025-07-06 10:55:31,571 - backfill - WARNING - No data for ADANIENT.NSE on 2020-06-04
+2025-07-06 10:55:32,919 - backfill - WARNING - No data for ADANIENT.NSE on 2020-06-05
+2025-07-06 10:55:34,283 - backfill - WARNING - No data for ADANIENT.NSE on 2020-06-06
+2025-07-06 10:55:35,632 - backfill - WARNING - No data for ADANIENT.NSE on 2020-06-07

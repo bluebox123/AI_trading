@@ -1,0 +1,12 @@
+{
+  "total_symbols_processed": 119,
+  "successful_datasets": 117,
+  "failed_datasets": 2,
+  "success_rate": 98.3,
+  "date_range": {
+    "start": "2020-05-01T00:00:00",
+    "end": "2025-05-31T00:00:00"
+  },
+  "output_directory": "data\\processed\\v5_temporal_datasets",
+  "creation_timestamp": "2025-07-02T21:38:34.200994"
+}

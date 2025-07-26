@@ -1,0 +1,74 @@
+2025-07-06 12:12:48,161 - optimized_parallel_sentiment_runner_1 - INFO - Initializing Optimized Parallel Sentiment Runner - Batch 1
+2025-07-06 12:12:48,490 - advanced_nlp_processor - INFO - spaCy model loaded successfully
+2025-07-06 12:12:48,731 - advanced_nlp_processor - INFO - NLTK components loaded successfully
+2025-07-06 12:12:48,731 - advanced_nlp_processor - INFO - VADER sentiment analyzer loaded
+2025-07-06 12:12:49,966 - advanced_nlp_processor - INFO - FinBERT sentiment analyzer loaded
+2025-07-06 12:12:49,970 - advanced_nlp_processor - INFO - Advanced NLP Processor initialized successfully
+2025-07-06 12:12:49,970 - advanced_confidence_calibration - INFO - Confidence Calibrator initialized successfully
+2025-07-06 12:12:49,970 - intraday_aggregation - INFO - Intraday Aggregator initialized successfully
+2025-07-06 12:12:49,970 - advanced_temporal_weighting - INFO - Advanced Temporal Weighter initialized successfully
+2025-07-06 12:12:49,970 - comprehensive_sentiment_dataset_generator - INFO - Loaded 119 stock symbols from ..\..\nse_stock_symbols_complete.txt
+2025-07-06 12:12:49,970 - comprehensive_sentiment_dataset_generator - INFO - Comprehensive Sentiment Generator initialized successfully
+2025-07-06 12:12:49,970 - advanced_confidence_calibration - INFO - Confidence Calibrator initialized successfully
+2025-07-06 12:12:49,970 - intraday_aggregation - INFO - Intraday Aggregator initialized successfully
+2025-07-06 12:12:49,970 - advanced_temporal_weighting - INFO - Advanced Temporal Weighter initialized successfully
+2025-07-06 12:12:49,970 - integrated_advanced_features - INFO - Integrated Advanced Features initialized successfully
+2025-07-06 12:12:49,970 - optimized_parallel_sentiment_runner_1 - INFO - Loaded 28 stock symbols for batch 1
+2025-07-06 12:12:49,970 - optimized_parallel_sentiment_runner_1 - INFO - Date range: 2020-05-01 to 2025-05-31
+2025-07-06 12:12:49,970 - optimized_parallel_sentiment_runner_1 - INFO - Output directory: parallel_sentiment_batch_1
+2025-07-06 12:12:49,970 - optimized_parallel_sentiment_runner_1 - INFO - Rate limiting: base_delay=3.0s, max_delay=10.0s
+2025-07-06 12:12:49,970 - optimized_parallel_sentiment_runner_1 - INFO - ================================================================================
+2025-07-06 12:12:49,975 - optimized_parallel_sentiment_runner_1 - INFO - STARTING OPTIMIZED PARALLEL BATCH 1 SENTIMENT ANALYSIS
+2025-07-06 12:12:49,975 - optimized_parallel_sentiment_runner_1 - INFO - ================================================================================
+2025-07-06 12:12:49,975 - optimized_parallel_sentiment_runner_1 - INFO - Total days: 1857
+2025-07-06 12:12:49,976 - optimized_parallel_sentiment_runner_1 - INFO - Total stocks: 28
+2025-07-06 12:12:49,976 - optimized_parallel_sentiment_runner_1 - INFO - Total requests: 51,996
+2025-07-06 12:12:49,976 - optimized_parallel_sentiment_runner_1 - INFO - Estimated time: 43.3 hours
+2025-07-06 12:12:49,976 - optimized_parallel_sentiment_runner_1 - INFO - Rate limiting: 3.0s base delay, 10.0s max delay
+2025-07-06 12:12:49,976 - optimized_parallel_sentiment_runner_1 - INFO - ================================================================================
+2025-07-06 12:12:49,976 - optimized_parallel_sentiment_runner_1 - INFO - Step 1: Running comprehensive backfill for batch 1...
+2025-07-06 12:13:33,855 - comprehensive_sentiment_dataset_generator - WARNING - No data for RELIANCE.NSE on 2020-05-01
+2025-07-06 12:13:34,858 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for RELIANCE.NSE: 0
+2025-07-06 12:13:34,860 - backfill - WARNING - No data for RELIANCE.NSE on 2020-05-01
+2025-07-06 12:14:11,911 - comprehensive_sentiment_dataset_generator - WARNING - No data for RELIANCE.NSE on 2020-05-02
+2025-07-06 12:14:12,914 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for RELIANCE.NSE: 0
+2025-07-06 12:14:12,914 - backfill - WARNING - No data for RELIANCE.NSE on 2020-05-02
+2025-07-06 12:14:53,903 - comprehensive_sentiment_dataset_generator - WARNING - No data for RELIANCE.NSE on 2020-05-03
+2025-07-06 12:14:54,906 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for RELIANCE.NSE: 0
+2025-07-06 12:14:54,906 - backfill - WARNING - No data for RELIANCE.NSE on 2020-05-03
+2025-07-06 12:15:32,416 - comprehensive_sentiment_dataset_generator - WARNING - No data for RELIANCE.NSE on 2020-05-04
+2025-07-06 12:15:33,420 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for RELIANCE.NSE: 0
+2025-07-06 12:15:33,420 - backfill - WARNING - No data for RELIANCE.NSE on 2020-05-04
+2025-07-06 12:16:08,503 - comprehensive_sentiment_dataset_generator - WARNING - No data for RELIANCE.NSE on 2020-05-05
+2025-07-06 12:16:09,508 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for RELIANCE.NSE: 0
+2025-07-06 12:16:09,508 - backfill - WARNING - No data for RELIANCE.NSE on 2020-05-05
+2025-07-06 12:16:51,642 - comprehensive_sentiment_dataset_generator - WARNING - No data for RELIANCE.NSE on 2020-05-06
+2025-07-06 12:16:52,649 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for RELIANCE.NSE: 0
+2025-07-06 12:16:52,650 - backfill - WARNING - No data for RELIANCE.NSE on 2020-05-06
+2025-07-06 12:17:28,501 - comprehensive_sentiment_dataset_generator - WARNING - No data for RELIANCE.NSE on 2020-05-07
+2025-07-06 12:17:29,509 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for RELIANCE.NSE: 0
+2025-07-06 12:17:29,511 - backfill - WARNING - No data for RELIANCE.NSE on 2020-05-07
+2025-07-06 12:17:58,137 - comprehensive_sentiment_dataset_generator - WARNING - No data for RELIANCE.NSE on 2020-05-08
+2025-07-06 12:17:59,145 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for RELIANCE.NSE: 0
+2025-07-06 12:17:59,146 - backfill - WARNING - No data for RELIANCE.NSE on 2020-05-08
+2025-07-06 12:18:40,516 - comprehensive_sentiment_dataset_generator - WARNING - No data for RELIANCE.NSE on 2020-05-09
+2025-07-06 12:18:41,521 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for RELIANCE.NSE: 0
+2025-07-06 12:18:41,523 - backfill - WARNING - No data for RELIANCE.NSE on 2020-05-09
+2025-07-06 12:19:18,266 - comprehensive_sentiment_dataset_generator - WARNING - No data for RELIANCE.NSE on 2020-05-10
+2025-07-06 12:19:19,272 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for RELIANCE.NSE: 0
+2025-07-06 12:19:19,275 - backfill - WARNING - No data for RELIANCE.NSE on 2020-05-10
+2025-07-06 12:19:53,875 - comprehensive_sentiment_dataset_generator - WARNING - No data for RELIANCE.NSE on 2020-05-11
+2025-07-06 12:19:54,884 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for RELIANCE.NSE: 0
+2025-07-06 12:19:54,886 - backfill - WARNING - No data for RELIANCE.NSE on 2020-05-11
+2025-07-06 12:20:32,169 - comprehensive_sentiment_dataset_generator - WARNING - No data for RELIANCE.NSE on 2020-05-12
+2025-07-06 12:20:33,170 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for RELIANCE.NSE: 0
+2025-07-06 12:20:33,173 - backfill - WARNING - No data for RELIANCE.NSE on 2020-05-12
+2025-07-06 12:21:09,102 - comprehensive_sentiment_dataset_generator - WARNING - No data for RELIANCE.NSE on 2020-05-13
+2025-07-06 12:21:10,108 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for RELIANCE.NSE: 0
+2025-07-06 12:21:10,109 - backfill - WARNING - No data for RELIANCE.NSE on 2020-05-13
+2025-07-06 12:21:49,151 - comprehensive_sentiment_dataset_generator - WARNING - No data for RELIANCE.NSE on 2020-05-14
+2025-07-06 12:21:50,152 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for RELIANCE.NSE: 0
+2025-07-06 12:21:50,155 - backfill - WARNING - No data for RELIANCE.NSE on 2020-05-14
+2025-07-06 12:22:25,023 - comprehensive_sentiment_dataset_generator - WARNING - No data for RELIANCE.NSE on 2020-05-15
+2025-07-06 12:22:26,031 - comprehensive_sentiment_dataset_generator - INFO - Total articles found for RELIANCE.NSE: 0
+2025-07-06 12:22:26,032 - backfill - WARNING - No data for RELIANCE.NSE on 2020-05-15

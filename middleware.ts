@@ -1,9 +1,11 @@
-import { createServerClient } from '@supabase/ssr'
+import { createServerClient, type CookieOptions } from '@supabase/ssr'
 import { NextResponse, type NextRequest } from 'next/server'
 
 export async function middleware(request: NextRequest) {
-  let supabaseResponse = NextResponse.next({
-    request,
+  let response = NextResponse.next({
+    request: {
+      headers: request.headers,
+    },
   })
 
   const supabase = createServerClient(
@@ -11,63 +13,82 @@ export async function middleware(request: NextRequest) {
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
     {
       cookies: {
-        getAll() {
-          return request.cookies.getAll()
+        get(name: string) {
+          return request.cookies.get(name)?.value
         },
-        setAll(cookiesToSet) {
-          cookiesToSet.forEach(({ name, value, options }) => request.cookies.set(name, value))
-          supabaseResponse = NextResponse.next({
-            request,
+        set(name: string, value: string, options: CookieOptions) {
+          request.cookies.set({
+            name,
+            value,
+            ...options,
           })
-          cookiesToSet.forEach(({ name, value, options }) =>
-            supabaseResponse.cookies.set(name, value, options)
-          )
+          response = NextResponse.next({
+            request: {
+              headers: request.headers,
+            },
+          })
+          response.cookies.set({
+            name,
+            value,
+            ...options,
+          })
+        },
+        remove(name: string, options: CookieOptions) {
+          request.cookies.set({
+            name,
+            value: '',
+            ...options,
+          })
+          response = NextResponse.next({
+            request: {
+              headers: request.headers,
+            },
+          })
+          response.cookies.set({
+            name,
+            value: '',
+            ...options,
+          })
         },
       },
     }
   )
 
-  // IMPORTANT: Avoid writing any logic between createServerClient and
-  // supabase.auth.getUser(). A simple mistake could make it very hard to debug
-  // issues with users being randomly logged out.
+  // Refresh session if expired - required for Server Components
+  await supabase.auth.getUser()
 
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
+  const { pathname } = request.nextUrl
 
   // Protected routes that require authentication
-  const protectedRoutes = ['/dashboard', '/stocks', '/news', '/engine', '/profile']
-  const authRoutes = ['/auth/sign-in', '/auth/sign-up']
-  
-  const pathname = request.nextUrl.pathname
-
-  // Check if current route is protected
+  const protectedRoutes = ['/dashboard', '/news', '/stocks', '/engine', '/profile']
   const isProtectedRoute = protectedRoutes.some(route => pathname.startsWith(route))
-  const isAuthRoute = authRoutes.some(route => pathname.startsWith(route))
 
-  // If user is not logged in and trying to access protected route
-  if (!user && isProtectedRoute) {
-    // Redirect to sign-in with the attempted URL as redirect parameter
-    const redirectUrl = new URL('/auth/sign-in', request.url)
-    redirectUrl.searchParams.set('redirect', pathname)
-    return NextResponse.redirect(redirectUrl)
+  // Auth routes that should redirect if already authenticated
+  const authRoutes = ['/auth/sign-in', '/auth/sign-up']
+  const isAuthRoute = authRoutes.includes(pathname)
+
+  if (isProtectedRoute) {
+    const { data: { user } } = await supabase.auth.getUser()
+    
+    if (!user) {
+      // Redirect to sign-in if not authenticated
+      const redirectUrl = new URL('/auth/sign-in', request.url)
+      redirectUrl.searchParams.set('redirectTo', pathname)
+      return NextResponse.redirect(redirectUrl)
+    }
   }
 
-  // If user is logged in and trying to access auth routes
-  if (user && isAuthRoute) {
-    // Redirect to dashboard
-    return NextResponse.redirect(new URL('/dashboard', request.url))
+  if (isAuthRoute) {
+    const { data: { user } } = await supabase.auth.getUser()
+    
+    if (user) {
+      // Redirect to dashboard if already authenticated
+      const redirectTo = request.nextUrl.searchParams.get('redirectTo') || '/dashboard'
+      return NextResponse.redirect(new URL(redirectTo, request.url))
+    }
   }
 
-  // IMPORTANT: You *must* return the supabaseResponse object as it is. If you're
-  // creating a new response object with NextResponse.next() make sure to:
-  // 1. Pass the request in it, like so:
-  //    const myNewResponse = NextResponse.next({ request })
-  // 2. Copy over the cookies, like so:
-  //    myNewResponse.cookies.setAll(supabaseResponse.cookies.getAll())
-  // 3. Change the response object you return in your middleware to the new one
-
-  return supabaseResponse
+  return response
 }
 
 export const config = {
@@ -77,9 +98,8 @@ export const config = {
      * - _next/static (static files)
      * - _next/image (image optimization files)
      * - favicon.ico (favicon file)
-     * - public files (images, icons, etc.)
-     * - api routes (for OTP functionality)
+     * - public assets
      */
-    '/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$|api/).*)',
+    '/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)',
   ],
 } 

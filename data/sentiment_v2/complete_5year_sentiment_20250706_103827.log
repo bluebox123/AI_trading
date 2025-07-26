@@ -1,0 +1,60 @@
+2025-07-06 10:38:27,818 - complete_sentiment_runner - INFO - Initializing Complete Sentiment Runner
+2025-07-06 10:38:28,172 - advanced_nlp_processor - INFO - spaCy model loaded successfully
+2025-07-06 10:38:28,310 - advanced_nlp_processor - INFO - NLTK components loaded successfully
+2025-07-06 10:38:28,312 - advanced_nlp_processor - INFO - VADER sentiment analyzer loaded
+2025-07-06 10:38:29,555 - advanced_nlp_processor - INFO - FinBERT sentiment analyzer loaded
+2025-07-06 10:38:29,555 - advanced_nlp_processor - INFO - Advanced NLP Processor initialized successfully
+2025-07-06 10:38:29,555 - advanced_confidence_calibration - INFO - Confidence Calibrator initialized successfully
+2025-07-06 10:38:29,555 - intraday_aggregation - INFO - Intraday Aggregator initialized successfully
+2025-07-06 10:38:29,555 - advanced_temporal_weighting - INFO - Advanced Temporal Weighter initialized successfully
+2025-07-06 10:38:29,555 - comprehensive_sentiment_dataset_generator - INFO - Loaded 136 stock symbols
+2025-07-06 10:38:29,568 - comprehensive_sentiment_dataset_generator - INFO - Comprehensive Sentiment Generator initialized successfully
+2025-07-06 10:38:29,568 - advanced_confidence_calibration - INFO - Confidence Calibrator initialized successfully
+2025-07-06 10:38:29,568 - intraday_aggregation - INFO - Intraday Aggregator initialized successfully
+2025-07-06 10:38:29,568 - advanced_temporal_weighting - INFO - Advanced Temporal Weighter initialized successfully
+2025-07-06 10:38:29,569 - integrated_advanced_features - INFO - Integrated Advanced Features initialized successfully
+2025-07-06 10:38:29,569 - complete_sentiment_runner - INFO - Loaded 136 stock symbols from file
+2025-07-06 10:38:29,571 - complete_sentiment_runner - INFO - Loaded 136 stock symbols
+2025-07-06 10:38:29,572 - complete_sentiment_runner - INFO - Date range: 2020-05-01 to 2025-05-31
+2025-07-06 10:38:29,572 - complete_sentiment_runner - INFO - Output directory: complete_5year_sentiment_dataset
+2025-07-06 10:38:29,572 - complete_sentiment_runner - INFO - ================================================================================
+2025-07-06 10:38:29,572 - complete_sentiment_runner - INFO - STARTING COMPLETE 5-YEAR SENTIMENT ANALYSIS
+2025-07-06 10:38:29,572 - complete_sentiment_runner - INFO - ================================================================================
+2025-07-06 10:38:29,572 - complete_sentiment_runner - INFO - Total days: 1857
+2025-07-06 10:38:29,574 - complete_sentiment_runner - INFO - Total stocks: 136
+2025-07-06 10:38:29,574 - complete_sentiment_runner - INFO - Total requests: 252,552
+2025-07-06 10:38:29,574 - complete_sentiment_runner - INFO - Estimated time: 105.2 hours
+2025-07-06 10:38:29,574 - complete_sentiment_runner - INFO - ================================================================================
+2025-07-06 10:38:29,574 - complete_sentiment_runner - INFO - Step 1: Running comprehensive backfill...
+2025-07-06 10:38:31,284 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-01
+2025-07-06 10:38:32,993 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-02
+2025-07-06 10:38:34,740 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-03
+2025-07-06 10:38:36,446 - backfill - INFO - Fetched 1 for LARGE CAP STOCKS (50 symbols ): on 2020-05-04
+2025-07-06 10:38:38,205 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-05
+2025-07-06 10:38:39,914 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-06
+2025-07-06 10:38:41,628 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-07
+2025-07-06 10:38:43,407 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-08
+2025-07-06 10:38:44,897 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-09
+2025-07-06 10:38:46,320 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-10
+2025-07-06 10:38:47,727 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-11
+2025-07-06 10:38:49,465 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-12
+2025-07-06 10:38:51,144 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-13
+2025-07-06 10:38:52,848 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-14
+2025-07-06 10:38:54,293 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-15
+2025-07-06 10:38:55,722 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-16
+2025-07-06 10:38:57,408 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-17
+2025-07-06 10:38:59,154 - backfill - INFO - Fetched 1 for LARGE CAP STOCKS (50 symbols ): on 2020-05-18
+2025-07-06 10:39:00,938 - backfill - INFO - Fetched 1 for LARGE CAP STOCKS (50 symbols ): on 2020-05-19
+2025-07-06 10:39:02,802 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-20
+2025-07-06 10:39:04,507 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-21
+2025-07-06 10:39:05,971 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-22
+2025-07-06 10:39:07,694 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-23
+2025-07-06 10:39:09,152 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-24
+2025-07-06 10:39:10,900 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-25
+2025-07-06 10:39:12,695 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-26
+2025-07-06 10:39:14,105 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-27
+2025-07-06 10:39:15,536 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-28
+2025-07-06 10:39:17,346 - backfill - INFO - Fetched 1 for LARGE CAP STOCKS (50 symbols ): on 2020-05-29
+2025-07-06 10:39:18,728 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-30
+2025-07-06 10:39:20,178 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-05-31
+2025-07-06 10:39:21,926 - backfill - WARNING - No data for LARGE CAP STOCKS (50 symbols ): on 2020-06-01

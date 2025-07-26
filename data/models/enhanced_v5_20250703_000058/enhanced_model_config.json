@@ -1,0 +1,45 @@
+{
+  "feature_dim": 50,
+  "hidden_dim": 256,
+  "num_attention_heads": 16,
+  "num_transformer_layers": 6,
+  "sequence_length": 20,
+  "price_features_dim": 16,
+  "sentiment_features_dim": 10,
+  "temporal_features_dim": 6,
+  "market_features_dim": 18,
+  "dropout_rate": 0.2,
+  "attention_dropout": 0.15,
+  "layer_norm_eps": 1e-06,
+  "stochastic_depth_prob": 0.1,
+  "direction_weight": 0.7,
+  "magnitude_weight": 0.3,
+  "weight_decay": 0.01,
+  "gradient_clip_norm": 0.5,
+  "label_smoothing": 0.1,
+  "missing_token_dim": 16,
+  "use_learnable_missing_mask": true,
+  "tier_configs": {
+    "largecap": {
+      "dropout_rate": 0.15,
+      "learning_rate": 0.0002,
+      "batch_size": 16,
+      "expected_accuracy": 0.67,
+      "patience": 20
+    },
+    "midcap": {
+      "dropout_rate": 0.2,
+      "learning_rate": 0.00015,
+      "batch_size": 12,
+      "expected_accuracy": 0.62,
+      "patience": 18
+    },
+    "smallcap": {
+      "dropout_rate": 0.25,
+      "learning_rate": 0.0001,
+      "batch_size": 8,
+      "expected_accuracy": 0.58,
+      "patience": 15
+    }
+  }
+}

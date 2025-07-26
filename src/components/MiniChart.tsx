@@ -1,146 +1,108 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { LineChart, Line, ResponsiveContainer } from 'recharts'
+import { cn } from '@/lib/utils'
 
 interface MiniChartProps {
-  data?: number[]
+  data: Array<{ value: number; timestamp: string }>
+  color?: string
   className?: string
-  color?: 'green' | 'red' | 'blue' | 'yellow'
   height?: number
 }
 
-export default function MiniChart({ 
-  data = [], 
-  className = '', 
-  color = 'green',
+export function MiniChart({ 
+  data, 
+  color = "#10b981", 
+  className,
   height = 40 
 }: MiniChartProps) {
-  const [animatedData, setAnimatedData] = useState<number[]>([])
+  // Determine if the trend is positive or negative
+  const firstValue = data[0]?.value || 0
+  const lastValue = data[data.length - 1]?.value || 0
+  const isPositive = lastValue >= firstValue
 
-  // Generate mock data if none provided
-  const chartData = data.length > 0 ? data : generateMockData()
-
-  useEffect(() => {
-    // Animate the chart on mount
-    const timer = setTimeout(() => {
-      setAnimatedData(chartData)
-    }, 100)
-
-    return () => clearTimeout(timer)
-  }, [chartData])
-
-  function generateMockData(): number[] {
-    const points = 20 + Math.floor(Math.random() * 10)
-    const baseValue = 100 + Math.random() * 50
-    const volatility = 5 + Math.random() * 10
-    
-    return Array.from({ length: points }, (_, i) => {
-      const trend = Math.sin(i * 0.3) * 2
-      const noise = (Math.random() - 0.5) * volatility
-      return baseValue + trend + noise
-    })
-  }
-
-  const colorMap = {
-    green: 'stroke-emerald-400',
-    red: 'stroke-red-400',
-    blue: 'stroke-cyan-400',
-    yellow: 'stroke-yellow-400'
-  }
-
-  const gradientMap = {
-    green: 'fill-emerald-400/20',
-    red: 'fill-red-400/20',
-    blue: 'fill-cyan-400/20',
-    yellow: 'fill-yellow-400/20'
-  }
-
-  if (animatedData.length === 0) {
-    return (
-      <div className={`w-full animate-pulse ${className}`} style={{ height }}>
-        <div className="w-full h-full bg-gray-700/30 rounded"></div>
-      </div>
-    )
-  }
-
-  const min = Math.min(...animatedData)
-  const max = Math.max(...animatedData)
-  const range = max - min || 1
-
-  const points = animatedData.map((value, index) => {
-    const x = (index / (animatedData.length - 1)) * 100
-    const y = ((max - value) / range) * (height - 8) + 4
-    return `${x},${y}`
-  }).join(' ')
-
-  const pathData = animatedData.map((value, index) => {
-    const x = (index / (animatedData.length - 1)) * 100
-    const y = ((max - value) / range) * (height - 8) + 4
-    return index === 0 ? `M ${x} ${y}` : `L ${x} ${y}`
-  }).join(' ')
-
-  const areaPath = `${pathData} L 100 ${height} L 0 ${height} Z`
+  const chartColor = color === "auto" ? (isPositive ? "#10b981" : "#ef4444") : color
 
   return (
-    <div className={`w-full ${className}`} style={{ height }}>
-      <svg 
-        width="100%" 
-        height="100%" 
-        viewBox={`0 0 100 ${height}`} 
-        preserveAspectRatio="none"
-        className="overflow-visible"
-      >
-        {/* Gradient definition */}
-        <defs>
-          <linearGradient id={`gradient-${color}`} x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" className={gradientMap[color]} />
-            <stop offset="100%" style={{ stopColor: 'transparent' }} />
-          </linearGradient>
-        </defs>
-        
-        {/* Area fill */}
-        <path
-          d={areaPath}
-          fill={`url(#gradient-${color})`}
-          className="opacity-60"
-        />
-        
-        {/* Line */}
-        <path
-          d={pathData}
-          fill="none"
-          strokeWidth="1.5"
-          className={`${colorMap[color]} transition-all duration-500`}
-          style={{
-            filter: `drop-shadow(0 0 4px ${color === 'green' ? '#10b981' : color === 'red' ? '#ef4444' : color === 'blue' ? '#06b6d4' : '#eab308'})`
-          }}
-        />
-        
-        {/* Animated dots on line */}
-        {animatedData.slice(-3).map((value, index) => {
-          const x = ((animatedData.length - 3 + index) / (animatedData.length - 1)) * 100
-          const y = ((max - value) / range) * (height - 8) + 4
-          return (
-            <circle
-              key={index}
-              cx={x}
-              cy={y}
-              r="1"
-              className={colorMap[color]}
-              fill="currentColor"
-              opacity={0.4 + index * 0.3}
-            >
-              <animate
-                attributeName="opacity"
-                values="0.4;1;0.4"
-                dur="2s"
-                repeatCount="indefinite"
-                begin={`${index * 0.5}s`}
-              />
-            </circle>
-          )
-        })}
-      </svg>
+    <div className={cn("w-full", className)} style={{ height }}>
+      <ResponsiveContainer width="100%" height="100%">
+        <LineChart data={data}>
+          <Line
+            type="monotone"
+            dataKey="value"
+            stroke={chartColor}
+            strokeWidth={1.5}
+            dot={false}
+            activeDot={false}
+          />
+        </LineChart>
+      </ResponsiveContainer>
     </div>
+  )
+}
+
+// Index ticker component that includes the mini chart
+interface IndexTickerProps {
+  symbol: string
+  name: string
+  price: number
+  change: number
+  changePercent: number
+  data: Array<{ value: number; timestamp: string }>
+}
+
+export function IndexTicker({ 
+  symbol, 
+  name, 
+  price, 
+  change, 
+  changePercent, 
+  data 
+}: IndexTickerProps) {
+  const isPositive = change >= 0
+
+  return (
+    <div className="p-4 bg-card rounded-lg border">
+      <div className="flex items-center justify-between mb-2">
+        <div>
+          <h3 className="font-semibold text-sm">{symbol}</h3>
+          <p className="text-xs text-muted-foreground">{name}</p>
+        </div>
+        <div className="text-right">
+          <p className="font-mono text-sm">₹{price.toLocaleString()}</p>
+          <p className={cn(
+            "text-xs font-medium",
+            isPositive ? "text-green-600" : "text-red-600"
+          )}>
+            {isPositive ? "+" : ""}{change.toFixed(2)} ({changePercent.toFixed(2)}%)
+          </p>
+        </div>
+      </div>
+      <MiniChart 
+        data={data} 
+        color="auto"
+        height={32}
+      />
+    </div>
+  )
+}
+
+// Stock sparkline for the stocks list page
+interface StockSparklineProps {
+  data: Array<{ value: number; timestamp: string }>
+  change: number
+  className?: string
+}
+
+export function StockSparkline({ data, change, className }: StockSparklineProps) {
+  const isPositive = change >= 0
+
+  return (
+    <MiniChart 
+      data={data}
+      color={isPositive ? "#10b981" : "#ef4444"}
+      className={className}
+      height={24}
+    />
   )
 } 
