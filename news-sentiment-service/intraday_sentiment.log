@@ -1,0 +1,9 @@
+2025-07-04 23:29:44,357 - INFO - Loaded 119 stock symbols
+2025-07-04 23:29:44,357 - INFO - Loading FinBERT model...
+2025-07-04 23:29:45,297 - INFO - FinBERT model loaded successfully
+2025-07-04 23:29:45,318 - INFO - Database initialized successfully
+2025-07-04 23:29:45,805 - INFO - Fetched 0 news items from moneycontrol
+2025-07-04 23:29:45,977 - INFO - Fetched 0 news items from economictimes
+2025-07-04 23:29:46,292 - INFO - Fetched 0 news items from livemint
+2025-07-04 23:29:46,326 - INFO - Fetched 0 news items from business_standard
+2025-07-04 23:29:46,632 - INFO - Fetched 0 news items from ndtv_business

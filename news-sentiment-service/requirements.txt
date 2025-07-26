@@ -1,0 +1,23 @@
+# News Sentiment Analysis Pipeline Dependencies
+feedparser==6.0.10
+apscheduler==3.10.4
+transformers==4.36.0
+torch==2.1.1
+torchvision==0.16.1
+torchaudio==2.1.1
+pandas==2.1.4
+numpy==1.24.3
+requests==2.31.0
+python-dateutil==2.8.2
+pytz==2023.3
+beautifulsoup4==4.12.2
+lxml==4.9.3
+cssselect==1.2.0
+
+# Logging and monitoring
+colorama==0.4.6
+tqdm==4.66.1
+
+# Development and testing
+pytest==7.4.3
+pytest-cov==4.1.0 
